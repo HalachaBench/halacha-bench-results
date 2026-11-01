@@ -1,0 +1,6979 @@
+{
+ "format": "halachabench-public-criteria-v1",
+ "items": {
+  "5786-iyar-issur-iyun-q01": {
+   "subject": "issur-vheter",
+   "criteria": [
+    {
+     "id": "5786-iyar-issur-iyun-q01.C1",
+     "points": 6,
+     "axis": "sources",
+     "status": "approved"
+    },
+    {
+     "id": "5786-iyar-issur-iyun-q01.C2",
+     "points": 5,
+     "axis": "sources",
+     "status": "approved"
+    },
+    {
+     "id": "5786-iyar-issur-iyun-q01.C3",
+     "points": 6,
+     "axis": "sources",
+     "status": "approved"
+    },
+    {
+     "id": "5786-iyar-issur-iyun-q01.C4",
+     "points": 5,
+     "axis": "accuracy",
+     "status": "approved"
+    },
+    {
+     "id": "5786-iyar-issur-iyun-q01.C5",
+     "points": 4,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5786-iyar-issur-iyun-q01.C6",
+     "points": 5,
+     "axis": "accuracy",
+     "status": "approved"
+    },
+    {
+     "id": "5786-iyar-issur-iyun-q01.C7",
+     "points": 6,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5786-iyar-issur-iyun-q01.C8",
+     "points": 6,
+     "axis": "accuracy",
+     "status": "approved"
+    },
+    {
+     "id": "5786-iyar-issur-iyun-q01.C9",
+     "points": 7,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5786-iyar-issur-iyun-q01.N1",
+     "points": -5,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5786-iyar-issur-iyun-q01.N2",
+     "points": -3,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5786-iyar-issur-iyun-q01.N3",
+     "points": -3,
+     "axis": "accuracy",
+     "status": "approved"
+    }
+   ]
+  },
+  "5786-iyar-issur-iyun-q02": {
+   "subject": "issur-vheter",
+   "criteria": [
+    {
+     "id": "5786-iyar-issur-iyun-q02.C2",
+     "points": 3,
+     "axis": "accuracy",
+     "status": "approved"
+    },
+    {
+     "id": "5786-iyar-issur-iyun-q02.C11",
+     "points": 3,
+     "axis": "accuracy",
+     "status": "approved"
+    },
+    {
+     "id": "5786-iyar-issur-iyun-q02.C12",
+     "points": 4,
+     "axis": "accuracy",
+     "status": "approved"
+    },
+    {
+     "id": "5786-iyar-issur-iyun-q02.C3",
+     "points": 8,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5786-iyar-issur-iyun-q02.C5",
+     "points": 6,
+     "axis": "accuracy",
+     "status": "approved"
+    },
+    {
+     "id": "5786-iyar-issur-iyun-q02.C6",
+     "points": 8,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5786-iyar-issur-iyun-q02.C7",
+     "points": 8,
+     "axis": "accuracy",
+     "status": "approved"
+    },
+    {
+     "id": "5786-iyar-issur-iyun-q02.C8",
+     "points": 4,
+     "axis": "accuracy",
+     "status": "approved"
+    },
+    {
+     "id": "5786-iyar-issur-iyun-q02.C13",
+     "points": 4,
+     "axis": "accuracy",
+     "status": "approved"
+    },
+    {
+     "id": "5786-iyar-issur-iyun-q02.C9",
+     "points": 5,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5786-iyar-issur-iyun-q02.N1",
+     "points": -8,
+     "axis": "accuracy",
+     "status": "approved"
+    },
+    {
+     "id": "5786-iyar-issur-iyun-q02.N2",
+     "points": -6,
+     "axis": "ruling",
+     "status": "approved"
+    }
+   ]
+  },
+  "5786-iyar-issur-iyun-q03": {
+   "subject": "issur-vheter",
+   "criteria": [
+    {
+     "id": "5786-iyar-issur-iyun-q03.C1",
+     "points": 2,
+     "axis": "sources",
+     "status": "approved"
+    },
+    {
+     "id": "5786-iyar-issur-iyun-q03.C2",
+     "points": 3,
+     "axis": "sources",
+     "status": "approved"
+    },
+    {
+     "id": "5786-iyar-issur-iyun-q03.C3",
+     "points": 3,
+     "axis": "sources",
+     "status": "approved"
+    },
+    {
+     "id": "5786-iyar-issur-iyun-q03.C4",
+     "points": 3,
+     "axis": "sources",
+     "status": "approved"
+    },
+    {
+     "id": "5786-iyar-issur-iyun-q03.C5",
+     "points": 4,
+     "axis": "accuracy",
+     "status": "approved"
+    },
+    {
+     "id": "5786-iyar-issur-iyun-q03.C6",
+     "points": 3,
+     "axis": "completeness",
+     "status": "approved"
+    },
+    {
+     "id": "5786-iyar-issur-iyun-q03.C7",
+     "points": 5,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5786-iyar-issur-iyun-q03.C8",
+     "points": 3,
+     "axis": "accuracy",
+     "status": "approved"
+    },
+    {
+     "id": "5786-iyar-issur-iyun-q03.C9",
+     "points": 5,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5786-iyar-issur-iyun-q03.C10",
+     "points": 3,
+     "axis": "context",
+     "status": "approved"
+    },
+    {
+     "id": "5786-iyar-issur-iyun-q03.N1",
+     "points": -5,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5786-iyar-issur-iyun-q03.N2",
+     "points": -4,
+     "axis": "ruling",
+     "status": "approved"
+    }
+   ]
+  },
+  "5786-iyar-issur-iyun-q04": {
+   "subject": "issur-vheter",
+   "criteria": [
+    {
+     "id": "5786-iyar-issur-iyun-q04.C1",
+     "points": 3,
+     "axis": "sources",
+     "status": "approved"
+    },
+    {
+     "id": "5786-iyar-issur-iyun-q04.C2",
+     "points": 4,
+     "axis": "accuracy",
+     "status": "approved"
+    },
+    {
+     "id": "5786-iyar-issur-iyun-q04.C3",
+     "points": 4,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5786-iyar-issur-iyun-q04.C4",
+     "points": 3,
+     "axis": "accuracy",
+     "status": "approved"
+    },
+    {
+     "id": "5786-iyar-issur-iyun-q04.C5",
+     "points": 4,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5786-iyar-issur-iyun-q04.C6",
+     "points": 3,
+     "axis": "accuracy",
+     "status": "approved"
+    },
+    {
+     "id": "5786-iyar-issur-iyun-q04.C7",
+     "points": 4,
+     "axis": "accuracy",
+     "status": "approved"
+    },
+    {
+     "id": "5786-iyar-issur-iyun-q04.C8",
+     "points": 4,
+     "axis": "accuracy",
+     "status": "approved"
+    },
+    {
+     "id": "5786-iyar-issur-iyun-q04.C9",
+     "points": 4,
+     "axis": "accuracy",
+     "status": "approved"
+    },
+    {
+     "id": "5786-iyar-issur-iyun-q04.C10",
+     "points": 4,
+     "axis": "completeness",
+     "status": "approved"
+    },
+    {
+     "id": "5786-iyar-issur-iyun-q04.N1",
+     "points": -4,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5786-iyar-issur-iyun-q04.N2",
+     "points": -4,
+     "axis": "accuracy",
+     "status": "approved"
+    }
+   ]
+  },
+  "5786-iyar-issur-iyun-q05": {
+   "subject": "issur-vheter",
+   "criteria": [
+    {
+     "id": "5786-iyar-issur-iyun-q05.C1",
+     "points": 3,
+     "axis": "sources",
+     "status": "approved"
+    },
+    {
+     "id": "5786-iyar-issur-iyun-q05.C2",
+     "points": 2,
+     "axis": "accuracy",
+     "status": "approved"
+    },
+    {
+     "id": "5786-iyar-issur-iyun-q05.C3",
+     "points": 2,
+     "axis": "accuracy",
+     "status": "approved"
+    },
+    {
+     "id": "5786-iyar-issur-iyun-q05.C4",
+     "points": 2,
+     "axis": "accuracy",
+     "status": "approved"
+    },
+    {
+     "id": "5786-iyar-issur-iyun-q05.C5",
+     "points": 2,
+     "axis": "accuracy",
+     "status": "approved"
+    },
+    {
+     "id": "5786-iyar-issur-iyun-q05.C6",
+     "points": 3,
+     "axis": "accuracy",
+     "status": "approved"
+    },
+    {
+     "id": "5786-iyar-issur-iyun-q05.C7",
+     "points": 4,
+     "axis": "accuracy",
+     "status": "approved"
+    },
+    {
+     "id": "5786-iyar-issur-iyun-q05.C8",
+     "points": 2,
+     "axis": "accuracy",
+     "status": "approved"
+    },
+    {
+     "id": "5786-iyar-issur-iyun-q05.C9",
+     "points": 3,
+     "axis": "accuracy",
+     "status": "approved"
+    },
+    {
+     "id": "5786-iyar-issur-iyun-q05.C10",
+     "points": 3,
+     "axis": "accuracy",
+     "status": "approved"
+    },
+    {
+     "id": "5786-iyar-issur-iyun-q05.N1",
+     "points": -3,
+     "axis": "accuracy",
+     "status": "approved"
+    },
+    {
+     "id": "5786-iyar-issur-iyun-q05.N2",
+     "points": -2,
+     "axis": "sources",
+     "status": "approved"
+    }
+   ]
+  },
+  "5786-iyar-issur-iyun-q06": {
+   "subject": "issur-vheter",
+   "criteria": [
+    {
+     "id": "5786-iyar-issur-iyun-q06.C1",
+     "points": 6,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5786-iyar-issur-iyun-q06.C2",
+     "points": 5,
+     "axis": "sources",
+     "status": "approved"
+    },
+    {
+     "id": "5786-iyar-issur-iyun-q06.C3",
+     "points": 4,
+     "axis": "accuracy",
+     "status": "approved"
+    },
+    {
+     "id": "5786-iyar-issur-iyun-q06.C4",
+     "points": 5,
+     "axis": "sources",
+     "status": "approved"
+    },
+    {
+     "id": "5786-iyar-issur-iyun-q06.C5",
+     "points": 6,
+     "axis": "accuracy",
+     "status": "approved"
+    },
+    {
+     "id": "5786-iyar-issur-iyun-q06.C6",
+     "points": 5,
+     "axis": "accuracy",
+     "status": "approved"
+    },
+    {
+     "id": "5786-iyar-issur-iyun-q06.C7",
+     "points": 4,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5786-iyar-issur-iyun-q06.C8",
+     "points": 5,
+     "axis": "sources",
+     "status": "approved"
+    },
+    {
+     "id": "5786-iyar-issur-iyun-q06.C9",
+     "points": 5,
+     "axis": "accuracy",
+     "status": "approved"
+    },
+    {
+     "id": "5786-iyar-issur-iyun-q06.C10",
+     "points": 5,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5786-iyar-issur-iyun-q06.C11",
+     "points": 4,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5786-iyar-issur-iyun-q06.N1",
+     "points": -5,
+     "axis": "ruling",
+     "status": "approved"
+    }
+   ]
+  },
+  "5786-iyar-issur-iyun-q07": {
+   "subject": "issur-vheter",
+   "criteria": [
+    {
+     "id": "5786-iyar-issur-iyun-q07.C1",
+     "points": 5,
+     "axis": "sources",
+     "status": "approved"
+    },
+    {
+     "id": "5786-iyar-issur-iyun-q07.C2",
+     "points": 4,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5786-iyar-issur-iyun-q07.C3",
+     "points": 4,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5786-iyar-issur-iyun-q07.C4",
+     "points": 3,
+     "axis": "sources",
+     "status": "approved"
+    },
+    {
+     "id": "5786-iyar-issur-iyun-q07.C5",
+     "points": 3,
+     "axis": "accuracy",
+     "status": "approved"
+    },
+    {
+     "id": "5786-iyar-issur-iyun-q07.C6",
+     "points": 3,
+     "axis": "accuracy",
+     "status": "approved"
+    },
+    {
+     "id": "5786-iyar-issur-iyun-q07.C7",
+     "points": 4,
+     "axis": "accuracy",
+     "status": "approved"
+    },
+    {
+     "id": "5786-iyar-issur-iyun-q07.C8",
+     "points": 3,
+     "axis": "accuracy",
+     "status": "approved"
+    },
+    {
+     "id": "5786-iyar-issur-iyun-q07.C9",
+     "points": 3,
+     "axis": "accuracy",
+     "status": "approved"
+    },
+    {
+     "id": "5786-iyar-issur-iyun-q07.C12",
+     "points": 1,
+     "axis": "sources",
+     "status": "approved"
+    },
+    {
+     "id": "5786-iyar-issur-iyun-q07.N1",
+     "points": -6,
+     "axis": "accuracy",
+     "status": "approved"
+    },
+    {
+     "id": "5786-iyar-issur-iyun-q07.N2",
+     "points": -4,
+     "axis": "accuracy",
+     "status": "approved"
+    }
+   ]
+  },
+  "5786-iyar-issur-iyun-q08": {
+   "subject": "issur-vheter",
+   "criteria": [
+    {
+     "id": "5786-iyar-issur-iyun-q08.C1",
+     "points": 6,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5786-iyar-issur-iyun-q08.C2",
+     "points": 5,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5786-iyar-issur-iyun-q08.C3",
+     "points": 5,
+     "axis": "accuracy",
+     "status": "approved"
+    },
+    {
+     "id": "5786-iyar-issur-iyun-q08.C4",
+     "points": 4,
+     "axis": "sources",
+     "status": "approved"
+    },
+    {
+     "id": "5786-iyar-issur-iyun-q08.C5",
+     "points": 6,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5786-iyar-issur-iyun-q08.C6",
+     "points": 4,
+     "axis": "accuracy",
+     "status": "approved"
+    },
+    {
+     "id": "5786-iyar-issur-iyun-q08.C7",
+     "points": 5,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5786-iyar-issur-iyun-q08.C8",
+     "points": 6,
+     "axis": "sources",
+     "status": "approved"
+    },
+    {
+     "id": "5786-iyar-issur-iyun-q08.C9",
+     "points": 6,
+     "axis": "sources",
+     "status": "approved"
+    },
+    {
+     "id": "5786-iyar-issur-iyun-q08.C10",
+     "points": 6,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5786-iyar-issur-iyun-q08.N1",
+     "points": -5,
+     "axis": "accuracy",
+     "status": "approved"
+    },
+    {
+     "id": "5786-iyar-issur-iyun-q08.N2",
+     "points": -4,
+     "axis": "accuracy",
+     "status": "approved"
+    }
+   ]
+  },
+  "5786-iyar-issur-yishum-q09": {
+   "subject": "issur-vheter",
+   "criteria": [
+    {
+     "id": "5786-iyar-issur-yishum-q09.C2",
+     "points": 7,
+     "axis": "sources",
+     "status": "approved"
+    },
+    {
+     "id": "5786-iyar-issur-yishum-q09.C3",
+     "points": 7,
+     "axis": "sources",
+     "status": "approved"
+    },
+    {
+     "id": "5786-iyar-issur-yishum-q09.C4",
+     "points": 8,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5786-iyar-issur-yishum-q09.C5",
+     "points": 8,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5786-iyar-issur-yishum-q09.C6",
+     "points": 8,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5786-iyar-issur-yishum-q09.C7",
+     "points": 8,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5786-iyar-issur-yishum-q09.C8",
+     "points": 6,
+     "axis": "context",
+     "status": "approved"
+    },
+    {
+     "id": "5786-iyar-issur-yishum-q09.C11",
+     "points": 4,
+     "axis": "accuracy",
+     "status": "approved"
+    },
+    {
+     "id": "5786-iyar-issur-yishum-q09.C9",
+     "points": 7,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5786-iyar-issur-yishum-q09.C10",
+     "points": 7,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5786-iyar-issur-yishum-q09.N1",
+     "points": -6,
+     "axis": "accuracy",
+     "status": "approved"
+    },
+    {
+     "id": "5786-iyar-issur-yishum-q09.N2",
+     "points": -3,
+     "axis": "ruling",
+     "status": "approved"
+    }
+   ]
+  },
+  "5786-iyar-issur-yishum-q10": {
+   "subject": "issur-vheter",
+   "criteria": [
+    {
+     "id": "5786-iyar-issur-yishum-q10.C1",
+     "points": 8,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5786-iyar-issur-yishum-q10.C2",
+     "points": 6,
+     "axis": "calibration",
+     "status": "approved"
+    },
+    {
+     "id": "5786-iyar-issur-yishum-q10.C3",
+     "points": 5,
+     "axis": "completeness",
+     "status": "approved"
+    },
+    {
+     "id": "5786-iyar-issur-yishum-q10.C4",
+     "points": 6,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5786-iyar-issur-yishum-q10.C5",
+     "points": 8,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5786-iyar-issur-yishum-q10.C6",
+     "points": 4,
+     "axis": "completeness",
+     "status": "approved"
+    },
+    {
+     "id": "5786-iyar-issur-yishum-q10.C7",
+     "points": 3,
+     "axis": "accuracy",
+     "status": "approved"
+    },
+    {
+     "id": "5786-iyar-issur-yishum-q10.C8",
+     "points": 4,
+     "axis": "sources",
+     "status": "approved"
+    },
+    {
+     "id": "5786-iyar-issur-yishum-q10.C9",
+     "points": 7,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5786-iyar-issur-yishum-q10.N1",
+     "points": -6,
+     "axis": "accuracy",
+     "status": "approved"
+    },
+    {
+     "id": "5786-iyar-issur-yishum-q10.N2",
+     "points": -5,
+     "axis": "accuracy",
+     "status": "approved"
+    },
+    {
+     "id": "5786-iyar-issur-yishum-q10.N3",
+     "points": -4,
+     "axis": "accuracy",
+     "status": "approved"
+    }
+   ]
+  },
+  "5786-iyar-issur-yishum-q11": {
+   "subject": "issur-vheter",
+   "criteria": [
+    {
+     "id": "5786-iyar-issur-yishum-q11.C1",
+     "points": 2,
+     "axis": "sources",
+     "status": "approved"
+    },
+    {
+     "id": "5786-iyar-issur-yishum-q11.C2",
+     "points": 2,
+     "axis": "accuracy",
+     "status": "approved"
+    },
+    {
+     "id": "5786-iyar-issur-yishum-q11.C3",
+     "points": 3,
+     "axis": "completeness",
+     "status": "approved"
+    },
+    {
+     "id": "5786-iyar-issur-yishum-q11.C4",
+     "points": 2,
+     "axis": "accuracy",
+     "status": "approved"
+    },
+    {
+     "id": "5786-iyar-issur-yishum-q11.C5",
+     "points": 3,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5786-iyar-issur-yishum-q11.C6",
+     "points": 3,
+     "axis": "completeness",
+     "status": "approved"
+    },
+    {
+     "id": "5786-iyar-issur-yishum-q11.C7",
+     "points": 3,
+     "axis": "accuracy",
+     "status": "approved"
+    },
+    {
+     "id": "5786-iyar-issur-yishum-q11.C8",
+     "points": 4,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5786-iyar-issur-yishum-q11.C9",
+     "points": 2,
+     "axis": "completeness",
+     "status": "approved"
+    },
+    {
+     "id": "5786-iyar-issur-yishum-q11.N1",
+     "points": -5,
+     "axis": "accuracy",
+     "status": "approved"
+    },
+    {
+     "id": "5786-iyar-issur-yishum-q11.N2",
+     "points": -4,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5786-iyar-issur-yishum-q11.N3",
+     "points": -3,
+     "axis": "sources",
+     "status": "approved"
+    }
+   ]
+  },
+  "5786-iyar-issur-yishum-q12": {
+   "subject": "issur-vheter",
+   "criteria": [
+    {
+     "id": "5786-iyar-issur-yishum-q12.C1",
+     "points": 2,
+     "axis": "sources",
+     "status": "approved"
+    },
+    {
+     "id": "5786-iyar-issur-yishum-q12.C2",
+     "points": 2,
+     "axis": "accuracy",
+     "status": "approved"
+    },
+    {
+     "id": "5786-iyar-issur-yishum-q12.C3",
+     "points": 2,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5786-iyar-issur-yishum-q12.C4",
+     "points": 2,
+     "axis": "accuracy",
+     "status": "approved"
+    },
+    {
+     "id": "5786-iyar-issur-yishum-q12.C5",
+     "points": 2,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5786-iyar-issur-yishum-q12.C6",
+     "points": 2,
+     "axis": "sources",
+     "status": "approved"
+    },
+    {
+     "id": "5786-iyar-issur-yishum-q12.C7",
+     "points": 2,
+     "axis": "completeness",
+     "status": "approved"
+    },
+    {
+     "id": "5786-iyar-issur-yishum-q12.C8",
+     "points": 4,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5786-iyar-issur-yishum-q12.C9",
+     "points": 3,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5786-iyar-issur-yishum-q12.N1",
+     "points": -3,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5786-iyar-issur-yishum-q12.N2",
+     "points": -2,
+     "axis": "accuracy",
+     "status": "approved"
+    },
+    {
+     "id": "5786-iyar-issur-yishum-q12.N3",
+     "points": -2,
+     "axis": "sources",
+     "status": "approved"
+    }
+   ]
+  },
+  "5786-iyar-niddah-iyun-q01": {
+   "subject": "niddah",
+   "criteria": [
+    {
+     "id": "5786-iyar-niddah-iyun-q01.C1",
+     "points": 3,
+     "axis": "sources",
+     "status": "approved"
+    },
+    {
+     "id": "5786-iyar-niddah-iyun-q01.C2",
+     "points": 3,
+     "axis": "sources",
+     "status": "approved"
+    },
+    {
+     "id": "5786-iyar-niddah-iyun-q01.C3",
+     "points": 4,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5786-iyar-niddah-iyun-q01.C4",
+     "points": 3,
+     "axis": "accuracy",
+     "status": "approved"
+    },
+    {
+     "id": "5786-iyar-niddah-iyun-q01.C5",
+     "points": 3,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5786-iyar-niddah-iyun-q01.C6",
+     "points": 4,
+     "axis": "accuracy",
+     "status": "approved"
+    },
+    {
+     "id": "5786-iyar-niddah-iyun-q01.C7",
+     "points": 2,
+     "axis": "accuracy",
+     "status": "approved"
+    },
+    {
+     "id": "5786-iyar-niddah-iyun-q01.C8",
+     "points": 3,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5786-iyar-niddah-iyun-q01.C9",
+     "points": 2,
+     "axis": "sources",
+     "status": "approved"
+    },
+    {
+     "id": "5786-iyar-niddah-iyun-q01.C10",
+     "points": 3,
+     "axis": "accuracy",
+     "status": "approved"
+    },
+    {
+     "id": "5786-iyar-niddah-iyun-q01.N1",
+     "points": -4,
+     "axis": "accuracy",
+     "status": "approved"
+    },
+    {
+     "id": "5786-iyar-niddah-iyun-q01.N2",
+     "points": -3,
+     "axis": "ruling",
+     "status": "approved"
+    }
+   ]
+  },
+  "5786-iyar-niddah-iyun-q02": {
+   "subject": "niddah",
+   "criteria": [
+    {
+     "id": "5786-iyar-niddah-iyun-q02.C1",
+     "points": 2,
+     "axis": "sources",
+     "status": "approved"
+    },
+    {
+     "id": "5786-iyar-niddah-iyun-q02.C2",
+     "points": 2,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5786-iyar-niddah-iyun-q02.C3",
+     "points": 2,
+     "axis": "accuracy",
+     "status": "approved"
+    },
+    {
+     "id": "5786-iyar-niddah-iyun-q02.C4",
+     "points": 3,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5786-iyar-niddah-iyun-q02.C5",
+     "points": 2,
+     "axis": "completeness",
+     "status": "approved"
+    },
+    {
+     "id": "5786-iyar-niddah-iyun-q02.C6",
+     "points": 3,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5786-iyar-niddah-iyun-q02.C7",
+     "points": 3,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5786-iyar-niddah-iyun-q02.C8",
+     "points": 4,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5786-iyar-niddah-iyun-q02.C9",
+     "points": 2,
+     "axis": "accuracy",
+     "status": "approved"
+    },
+    {
+     "id": "5786-iyar-niddah-iyun-q02.C10",
+     "points": 2,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5786-iyar-niddah-iyun-q02.N1",
+     "points": -4,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5786-iyar-niddah-iyun-q02.N2",
+     "points": -2,
+     "axis": "ruling",
+     "status": "approved"
+    }
+   ]
+  },
+  "5786-iyar-niddah-iyun-q03": {
+   "subject": "niddah",
+   "criteria": [
+    {
+     "id": "5786-iyar-niddah-iyun-q03.C1",
+     "points": 2,
+     "axis": "sources",
+     "status": "approved"
+    },
+    {
+     "id": "5786-iyar-niddah-iyun-q03.C2",
+     "points": 3,
+     "axis": "accuracy",
+     "status": "approved"
+    },
+    {
+     "id": "5786-iyar-niddah-iyun-q03.C3",
+     "points": 3,
+     "axis": "accuracy",
+     "status": "approved"
+    },
+    {
+     "id": "5786-iyar-niddah-iyun-q03.C4",
+     "points": 3,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5786-iyar-niddah-iyun-q03.C5",
+     "points": 2,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5786-iyar-niddah-iyun-q03.C6",
+     "points": 2,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5786-iyar-niddah-iyun-q03.C7",
+     "points": 3,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5786-iyar-niddah-iyun-q03.C8",
+     "points": 3,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5786-iyar-niddah-iyun-q03.C9",
+     "points": 2,
+     "axis": "completeness",
+     "status": "approved"
+    },
+    {
+     "id": "5786-iyar-niddah-iyun-q03.N1",
+     "points": -4,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5786-iyar-niddah-iyun-q03.N2",
+     "points": -3,
+     "axis": "accuracy",
+     "status": "approved"
+    },
+    {
+     "id": "5786-iyar-niddah-iyun-q03.N3",
+     "points": -3,
+     "axis": "sources",
+     "status": "approved"
+    }
+   ]
+  },
+  "5786-iyar-niddah-iyun-q04": {
+   "subject": "niddah",
+   "criteria": [
+    {
+     "id": "5786-iyar-niddah-iyun-q04.C1",
+     "points": 3,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5786-iyar-niddah-iyun-q04.C2",
+     "points": 2,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5786-iyar-niddah-iyun-q04.C3",
+     "points": 1,
+     "axis": "completeness",
+     "status": "approved"
+    },
+    {
+     "id": "5786-iyar-niddah-iyun-q04.C4",
+     "points": 2,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5786-iyar-niddah-iyun-q04.C5",
+     "points": 2,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5786-iyar-niddah-iyun-q04.C6",
+     "points": 2,
+     "axis": "sources",
+     "status": "approved"
+    },
+    {
+     "id": "5786-iyar-niddah-iyun-q04.C7",
+     "points": 3,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5786-iyar-niddah-iyun-q04.C8",
+     "points": 3,
+     "axis": "accuracy",
+     "status": "approved"
+    },
+    {
+     "id": "5786-iyar-niddah-iyun-q04.C9",
+     "points": 2,
+     "axis": "accuracy",
+     "status": "approved"
+    },
+    {
+     "id": "5786-iyar-niddah-iyun-q04.N1",
+     "points": -4,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5786-iyar-niddah-iyun-q04.N2",
+     "points": -3,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5786-iyar-niddah-iyun-q04.N3",
+     "points": -2,
+     "axis": "accuracy",
+     "status": "approved"
+    }
+   ]
+  },
+  "5786-iyar-niddah-iyun-q05": {
+   "subject": "niddah",
+   "criteria": [
+    {
+     "id": "5786-iyar-niddah-iyun-q05.C1",
+     "points": 3,
+     "axis": "sources",
+     "status": "approved"
+    },
+    {
+     "id": "5786-iyar-niddah-iyun-q05.C2",
+     "points": 3,
+     "axis": "accuracy",
+     "status": "approved"
+    },
+    {
+     "id": "5786-iyar-niddah-iyun-q05.C3",
+     "points": 3,
+     "axis": "sources",
+     "status": "approved"
+    },
+    {
+     "id": "5786-iyar-niddah-iyun-q05.C4",
+     "points": 4,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5786-iyar-niddah-iyun-q05.C5",
+     "points": 4,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5786-iyar-niddah-iyun-q05.C6",
+     "points": 3,
+     "axis": "sources",
+     "status": "approved"
+    },
+    {
+     "id": "5786-iyar-niddah-iyun-q05.C7",
+     "points": 4,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5786-iyar-niddah-iyun-q05.C8",
+     "points": 5,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5786-iyar-niddah-iyun-q05.C9",
+     "points": 3,
+     "axis": "sources",
+     "status": "approved"
+    },
+    {
+     "id": "5786-iyar-niddah-iyun-q05.N1",
+     "points": -4,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5786-iyar-niddah-iyun-q05.N2",
+     "points": -3,
+     "axis": "accuracy",
+     "status": "approved"
+    }
+   ]
+  },
+  "5786-iyar-niddah-iyun-q06": {
+   "subject": "niddah",
+   "criteria": [
+    {
+     "id": "5786-iyar-niddah-iyun-q06.C1",
+     "points": 3,
+     "axis": "sources",
+     "status": "approved"
+    },
+    {
+     "id": "5786-iyar-niddah-iyun-q06.C2",
+     "points": 5,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5786-iyar-niddah-iyun-q06.C3",
+     "points": 4,
+     "axis": "accuracy",
+     "status": "approved"
+    },
+    {
+     "id": "5786-iyar-niddah-iyun-q06.C4",
+     "points": 4,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5786-iyar-niddah-iyun-q06.C5",
+     "points": 5,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5786-iyar-niddah-iyun-q06.C6",
+     "points": 3,
+     "axis": "accuracy",
+     "status": "approved"
+    },
+    {
+     "id": "5786-iyar-niddah-iyun-q06.C7",
+     "points": 5,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5786-iyar-niddah-iyun-q06.C8",
+     "points": 4,
+     "axis": "accuracy",
+     "status": "approved"
+    },
+    {
+     "id": "5786-iyar-niddah-iyun-q06.C9",
+     "points": 3,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5786-iyar-niddah-iyun-q06.N1",
+     "points": -4,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5786-iyar-niddah-iyun-q06.N2",
+     "points": -3,
+     "axis": "accuracy",
+     "status": "approved"
+    }
+   ]
+  },
+  "5786-iyar-niddah-iyun-q07": {
+   "subject": "niddah",
+   "criteria": [
+    {
+     "id": "5786-iyar-niddah-iyun-q07.C1",
+     "points": 3,
+     "axis": "sources",
+     "status": "approved"
+    },
+    {
+     "id": "5786-iyar-niddah-iyun-q07.C2",
+     "points": 5,
+     "axis": "sources",
+     "status": "approved"
+    },
+    {
+     "id": "5786-iyar-niddah-iyun-q07.C3",
+     "points": 3,
+     "axis": "completeness",
+     "status": "approved"
+    },
+    {
+     "id": "5786-iyar-niddah-iyun-q07.C4",
+     "points": 5,
+     "axis": "sources",
+     "status": "approved"
+    },
+    {
+     "id": "5786-iyar-niddah-iyun-q07.C5",
+     "points": 5,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5786-iyar-niddah-iyun-q07.C6",
+     "points": 5,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5786-iyar-niddah-iyun-q07.C7",
+     "points": 4,
+     "axis": "accuracy",
+     "status": "approved"
+    },
+    {
+     "id": "5786-iyar-niddah-iyun-q07.N1",
+     "points": -4,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5786-iyar-niddah-iyun-q07.N2",
+     "points": -3,
+     "axis": "accuracy",
+     "status": "approved"
+    }
+   ]
+  },
+  "5786-iyar-niddah-iyun-q08": {
+   "subject": "niddah",
+   "criteria": [
+    {
+     "id": "5786-iyar-niddah-iyun-q08.C1",
+     "points": 4,
+     "axis": "sources",
+     "status": "approved"
+    },
+    {
+     "id": "5786-iyar-niddah-iyun-q08.C2",
+     "points": 5,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5786-iyar-niddah-iyun-q08.C3",
+     "points": 3,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5786-iyar-niddah-iyun-q08.C4",
+     "points": 4,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5786-iyar-niddah-iyun-q08.C5",
+     "points": 4,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5786-iyar-niddah-iyun-q08.C6",
+     "points": 5,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5786-iyar-niddah-iyun-q08.C7",
+     "points": 4,
+     "axis": "sources",
+     "status": "approved"
+    },
+    {
+     "id": "5786-iyar-niddah-iyun-q08.C8",
+     "points": 4,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5786-iyar-niddah-iyun-q08.C9",
+     "points": 3,
+     "axis": "accuracy",
+     "status": "approved"
+    },
+    {
+     "id": "5786-iyar-niddah-iyun-q08.N1",
+     "points": -4,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5786-iyar-niddah-iyun-q08.N2",
+     "points": -3,
+     "axis": "accuracy",
+     "status": "approved"
+    }
+   ]
+  },
+  "5786-iyar-niddah-yishum-q09": {
+   "subject": "niddah",
+   "criteria": [
+    {
+     "id": "5786-iyar-niddah-yishum-q09.C1",
+     "points": 5,
+     "axis": "sources",
+     "status": "approved"
+    },
+    {
+     "id": "5786-iyar-niddah-yishum-q09.C2",
+     "points": 4,
+     "axis": "accuracy",
+     "status": "approved"
+    },
+    {
+     "id": "5786-iyar-niddah-yishum-q09.C3",
+     "points": 5,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5786-iyar-niddah-yishum-q09.C4",
+     "points": 4,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5786-iyar-niddah-yishum-q09.C5",
+     "points": 4,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5786-iyar-niddah-yishum-q09.C6",
+     "points": 4,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5786-iyar-niddah-yishum-q09.C7",
+     "points": 4,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5786-iyar-niddah-yishum-q09.C8",
+     "points": 2,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5786-iyar-niddah-yishum-q09.N1",
+     "points": -5,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5786-iyar-niddah-yishum-q09.N2",
+     "points": -3,
+     "axis": "accuracy",
+     "status": "approved"
+    }
+   ]
+  },
+  "5786-iyar-niddah-yishum-q10": {
+   "subject": "niddah",
+   "criteria": [
+    {
+     "id": "5786-iyar-niddah-yishum-q10.C1",
+     "points": 4,
+     "axis": "sources",
+     "status": "approved"
+    },
+    {
+     "id": "5786-iyar-niddah-yishum-q10.C2",
+     "points": 5,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5786-iyar-niddah-yishum-q10.C3",
+     "points": 3,
+     "axis": "accuracy",
+     "status": "approved"
+    },
+    {
+     "id": "5786-iyar-niddah-yishum-q10.C4",
+     "points": 3,
+     "axis": "sources",
+     "status": "approved"
+    },
+    {
+     "id": "5786-iyar-niddah-yishum-q10.C5",
+     "points": 5,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5786-iyar-niddah-yishum-q10.C6",
+     "points": 3,
+     "axis": "sources",
+     "status": "approved"
+    },
+    {
+     "id": "5786-iyar-niddah-yishum-q10.C7",
+     "points": 5,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5786-iyar-niddah-yishum-q10.C8",
+     "points": 2,
+     "axis": "accuracy",
+     "status": "approved"
+    },
+    {
+     "id": "5786-iyar-niddah-yishum-q10.C9",
+     "points": 2,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5786-iyar-niddah-yishum-q10.N1",
+     "points": -4,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5786-iyar-niddah-yishum-q10.N2",
+     "points": -4,
+     "axis": "ruling",
+     "status": "approved"
+    }
+   ]
+  },
+  "5786-iyar-niddah-yishum-q11": {
+   "subject": "niddah",
+   "criteria": [
+    {
+     "id": "5786-iyar-niddah-yishum-q11.C1",
+     "points": 4,
+     "axis": "sources",
+     "status": "approved"
+    },
+    {
+     "id": "5786-iyar-niddah-yishum-q11.C2",
+     "points": 4,
+     "axis": "accuracy",
+     "status": "approved"
+    },
+    {
+     "id": "5786-iyar-niddah-yishum-q11.C3",
+     "points": 6,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5786-iyar-niddah-yishum-q11.C4",
+     "points": 5,
+     "axis": "accuracy",
+     "status": "approved"
+    },
+    {
+     "id": "5786-iyar-niddah-yishum-q11.C5",
+     "points": 5,
+     "axis": "sources",
+     "status": "approved"
+    },
+    {
+     "id": "5786-iyar-niddah-yishum-q11.C6",
+     "points": 5,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5786-iyar-niddah-yishum-q11.C7",
+     "points": 4,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5786-iyar-niddah-yishum-q11.C8",
+     "points": 5,
+     "axis": "accuracy",
+     "status": "approved"
+    },
+    {
+     "id": "5786-iyar-niddah-yishum-q11.C9",
+     "points": 3,
+     "axis": "completeness",
+     "status": "approved"
+    },
+    {
+     "id": "5786-iyar-niddah-yishum-q11.N1",
+     "points": -5,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5786-iyar-niddah-yishum-q11.N2",
+     "points": -4,
+     "axis": "accuracy",
+     "status": "approved"
+    },
+    {
+     "id": "5786-iyar-niddah-yishum-q11.N3",
+     "points": -3,
+     "axis": "ruling",
+     "status": "approved"
+    }
+   ]
+  },
+  "5786-iyar-niddah-yishum-q12": {
+   "subject": "niddah",
+   "criteria": [
+    {
+     "id": "5786-iyar-niddah-yishum-q12.C1",
+     "points": 5,
+     "axis": "sources",
+     "status": "approved"
+    },
+    {
+     "id": "5786-iyar-niddah-yishum-q12.C2",
+     "points": 4,
+     "axis": "accuracy",
+     "status": "approved"
+    },
+    {
+     "id": "5786-iyar-niddah-yishum-q12.C3",
+     "points": 5,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5786-iyar-niddah-yishum-q12.C4",
+     "points": 5,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5786-iyar-niddah-yishum-q12.C5",
+     "points": 3,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5786-iyar-niddah-yishum-q12.C6",
+     "points": 5,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5786-iyar-niddah-yishum-q12.C7",
+     "points": 4,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5786-iyar-niddah-yishum-q12.C8",
+     "points": 4,
+     "axis": "completeness",
+     "status": "approved"
+    },
+    {
+     "id": "5786-iyar-niddah-yishum-q12.C9",
+     "points": 3,
+     "axis": "completeness",
+     "status": "approved"
+    },
+    {
+     "id": "5786-iyar-niddah-yishum-q12.N1",
+     "points": -5,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5786-iyar-niddah-yishum-q12.N2",
+     "points": -5,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5786-iyar-niddah-yishum-q12.N3",
+     "points": -3,
+     "axis": "ruling",
+     "status": "approved"
+    }
+   ]
+  },
+  "5786-iyar-shabbat-iyun-q01": {
+   "subject": "shabbat",
+   "criteria": [
+    {
+     "id": "5786-iyar-shabbat-iyun-q01.C1",
+     "points": 5,
+     "axis": "sources",
+     "status": "approved"
+    },
+    {
+     "id": "5786-iyar-shabbat-iyun-q01.C2",
+     "points": 6,
+     "axis": "sources",
+     "status": "approved"
+    },
+    {
+     "id": "5786-iyar-shabbat-iyun-q01.C3",
+     "points": 6,
+     "axis": "sources",
+     "status": "approved"
+    },
+    {
+     "id": "5786-iyar-shabbat-iyun-q01.C4",
+     "points": 6,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5786-iyar-shabbat-iyun-q01.C5",
+     "points": 3,
+     "axis": "context",
+     "status": "approved"
+    },
+    {
+     "id": "5786-iyar-shabbat-iyun-q01.C6",
+     "points": 5,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5786-iyar-shabbat-iyun-q01.C7",
+     "points": 4,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5786-iyar-shabbat-iyun-q01.C8",
+     "points": 4,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5786-iyar-shabbat-iyun-q01.C9",
+     "points": 5,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5786-iyar-shabbat-iyun-q01.C10",
+     "points": 3,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5786-iyar-shabbat-iyun-q01.N1",
+     "points": -5,
+     "axis": "accuracy",
+     "status": "approved"
+    },
+    {
+     "id": "5786-iyar-shabbat-iyun-q01.N2",
+     "points": -4,
+     "axis": "ruling",
+     "status": "approved"
+    }
+   ]
+  },
+  "5786-iyar-shabbat-iyun-q02": {
+   "subject": "shabbat",
+   "criteria": [
+    {
+     "id": "5786-iyar-shabbat-iyun-q02.C1",
+     "points": 5,
+     "axis": "sources",
+     "status": "approved"
+    },
+    {
+     "id": "5786-iyar-shabbat-iyun-q02.C2",
+     "points": 5,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5786-iyar-shabbat-iyun-q02.C3",
+     "points": 5,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5786-iyar-shabbat-iyun-q02.C4",
+     "points": 6,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5786-iyar-shabbat-iyun-q02.C5",
+     "points": 4,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5786-iyar-shabbat-iyun-q02.C6",
+     "points": 4,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5786-iyar-shabbat-iyun-q02.C7",
+     "points": 5,
+     "axis": "sources",
+     "status": "approved"
+    },
+    {
+     "id": "5786-iyar-shabbat-iyun-q02.C8",
+     "points": 5,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5786-iyar-shabbat-iyun-q02.C9",
+     "points": 3,
+     "axis": "accuracy",
+     "status": "approved"
+    },
+    {
+     "id": "5786-iyar-shabbat-iyun-q02.N1",
+     "points": -5,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5786-iyar-shabbat-iyun-q02.N2",
+     "points": -3,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5786-iyar-shabbat-iyun-q02.N3",
+     "points": -3,
+     "axis": "accuracy",
+     "status": "approved"
+    }
+   ]
+  },
+  "5786-iyar-shabbat-iyun-q03": {
+   "subject": "shabbat",
+   "criteria": [
+    {
+     "id": "5786-iyar-shabbat-iyun-q03.C1",
+     "points": 5,
+     "axis": "sources",
+     "status": "approved"
+    },
+    {
+     "id": "5786-iyar-shabbat-iyun-q03.C2",
+     "points": 4,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5786-iyar-shabbat-iyun-q03.C3",
+     "points": 4,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5786-iyar-shabbat-iyun-q03.C4",
+     "points": 4,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5786-iyar-shabbat-iyun-q03.C5",
+     "points": 5,
+     "axis": "sources",
+     "status": "approved"
+    },
+    {
+     "id": "5786-iyar-shabbat-iyun-q03.C6",
+     "points": 4,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5786-iyar-shabbat-iyun-q03.C7",
+     "points": 5,
+     "axis": "accuracy",
+     "status": "approved"
+    },
+    {
+     "id": "5786-iyar-shabbat-iyun-q03.C8",
+     "points": 4,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5786-iyar-shabbat-iyun-q03.C9",
+     "points": 3,
+     "axis": "accuracy",
+     "status": "approved"
+    },
+    {
+     "id": "5786-iyar-shabbat-iyun-q03.N1",
+     "points": -4,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5786-iyar-shabbat-iyun-q03.N2",
+     "points": -4,
+     "axis": "ruling",
+     "status": "approved"
+    }
+   ]
+  },
+  "5786-iyar-shabbat-iyun-q04": {
+   "subject": "shabbat",
+   "criteria": [
+    {
+     "id": "5786-iyar-shabbat-iyun-q04.C1",
+     "points": 5,
+     "axis": "sources",
+     "status": "approved"
+    },
+    {
+     "id": "5786-iyar-shabbat-iyun-q04.C2",
+     "points": 4,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5786-iyar-shabbat-iyun-q04.C3",
+     "points": 3,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5786-iyar-shabbat-iyun-q04.C4",
+     "points": 5,
+     "axis": "sources",
+     "status": "approved"
+    },
+    {
+     "id": "5786-iyar-shabbat-iyun-q04.C5",
+     "points": 4,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5786-iyar-shabbat-iyun-q04.C6",
+     "points": 5,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5786-iyar-shabbat-iyun-q04.C7",
+     "points": 4,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5786-iyar-shabbat-iyun-q04.C8",
+     "points": 4,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5786-iyar-shabbat-iyun-q04.C9",
+     "points": 4,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5786-iyar-shabbat-iyun-q04.N1",
+     "points": -5,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5786-iyar-shabbat-iyun-q04.N2",
+     "points": -3,
+     "axis": "ruling",
+     "status": "approved"
+    }
+   ]
+  },
+  "5786-iyar-shabbat-iyun-q05": {
+   "subject": "shabbat",
+   "criteria": [
+    {
+     "id": "5786-iyar-shabbat-iyun-q05.C1",
+     "points": 5,
+     "axis": "sources",
+     "status": "approved"
+    },
+    {
+     "id": "5786-iyar-shabbat-iyun-q05.C2",
+     "points": 5,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5786-iyar-shabbat-iyun-q05.C3",
+     "points": 3,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5786-iyar-shabbat-iyun-q05.C4",
+     "points": 4,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5786-iyar-shabbat-iyun-q05.C5",
+     "points": 4,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5786-iyar-shabbat-iyun-q05.C6",
+     "points": 5,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5786-iyar-shabbat-iyun-q05.C7",
+     "points": 3,
+     "axis": "sources",
+     "status": "approved"
+    },
+    {
+     "id": "5786-iyar-shabbat-iyun-q05.C8",
+     "points": 5,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5786-iyar-shabbat-iyun-q05.C9",
+     "points": 3,
+     "axis": "accuracy",
+     "status": "approved"
+    },
+    {
+     "id": "5786-iyar-shabbat-iyun-q05.N1",
+     "points": -4,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5786-iyar-shabbat-iyun-q05.N2",
+     "points": -3,
+     "axis": "accuracy",
+     "status": "approved"
+    }
+   ]
+  },
+  "5786-iyar-shabbat-iyun-q06": {
+   "subject": "shabbat",
+   "criteria": [
+    {
+     "id": "5786-iyar-shabbat-iyun-q06.C1",
+     "points": 5,
+     "axis": "sources",
+     "status": "approved"
+    },
+    {
+     "id": "5786-iyar-shabbat-iyun-q06.C2",
+     "points": 4,
+     "axis": "accuracy",
+     "status": "approved"
+    },
+    {
+     "id": "5786-iyar-shabbat-iyun-q06.C3",
+     "points": 5,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5786-iyar-shabbat-iyun-q06.C4",
+     "points": 5,
+     "axis": "sources",
+     "status": "approved"
+    },
+    {
+     "id": "5786-iyar-shabbat-iyun-q06.C5",
+     "points": 5,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5786-iyar-shabbat-iyun-q06.C6",
+     "points": 4,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5786-iyar-shabbat-iyun-q06.C7",
+     "points": 4,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5786-iyar-shabbat-iyun-q06.C8",
+     "points": 5,
+     "axis": "sources",
+     "status": "approved"
+    },
+    {
+     "id": "5786-iyar-shabbat-iyun-q06.C9",
+     "points": 5,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5786-iyar-shabbat-iyun-q06.N1",
+     "points": -4,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5786-iyar-shabbat-iyun-q06.N2",
+     "points": -3,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5786-iyar-shabbat-iyun-q06.N3",
+     "points": -3,
+     "axis": "accuracy",
+     "status": "approved"
+    }
+   ]
+  },
+  "5786-iyar-shabbat-iyun-q07": {
+   "subject": "shabbat",
+   "criteria": [
+    {
+     "id": "5786-iyar-shabbat-iyun-q07.C1",
+     "points": 6,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5786-iyar-shabbat-iyun-q07.C2",
+     "points": 5,
+     "axis": "sources",
+     "status": "approved"
+    },
+    {
+     "id": "5786-iyar-shabbat-iyun-q07.C3",
+     "points": 4,
+     "axis": "accuracy",
+     "status": "approved"
+    },
+    {
+     "id": "5786-iyar-shabbat-iyun-q07.C4",
+     "points": 4,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5786-iyar-shabbat-iyun-q07.C5",
+     "points": 5,
+     "axis": "sources",
+     "status": "approved"
+    },
+    {
+     "id": "5786-iyar-shabbat-iyun-q07.C6",
+     "points": 5,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5786-iyar-shabbat-iyun-q07.C7",
+     "points": 6,
+     "axis": "sources",
+     "status": "approved"
+    },
+    {
+     "id": "5786-iyar-shabbat-iyun-q07.C8",
+     "points": 5,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5786-iyar-shabbat-iyun-q07.N1",
+     "points": -5,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5786-iyar-shabbat-iyun-q07.N2",
+     "points": -4,
+     "axis": "accuracy",
+     "status": "approved"
+    },
+    {
+     "id": "5786-iyar-shabbat-iyun-q07.N3",
+     "points": -4,
+     "axis": "ruling",
+     "status": "approved"
+    }
+   ]
+  },
+  "5786-iyar-shabbat-iyun-q08": {
+   "subject": "shabbat",
+   "criteria": [
+    {
+     "id": "5786-iyar-shabbat-iyun-q08.C1",
+     "points": 5,
+     "axis": "sources",
+     "status": "approved"
+    },
+    {
+     "id": "5786-iyar-shabbat-iyun-q08.C2",
+     "points": 4,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5786-iyar-shabbat-iyun-q08.C3",
+     "points": 5,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5786-iyar-shabbat-iyun-q08.C4",
+     "points": 4,
+     "axis": "accuracy",
+     "status": "approved"
+    },
+    {
+     "id": "5786-iyar-shabbat-iyun-q08.C5",
+     "points": 4,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5786-iyar-shabbat-iyun-q08.C6",
+     "points": 5,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5786-iyar-shabbat-iyun-q08.C7",
+     "points": 4,
+     "axis": "sources",
+     "status": "approved"
+    },
+    {
+     "id": "5786-iyar-shabbat-iyun-q08.C8",
+     "points": 5,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5786-iyar-shabbat-iyun-q08.C9",
+     "points": 4,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5786-iyar-shabbat-iyun-q08.N1",
+     "points": -4,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5786-iyar-shabbat-iyun-q08.N2",
+     "points": -3,
+     "axis": "accuracy",
+     "status": "approved"
+    }
+   ]
+  },
+  "5786-iyar-shabbat-yishum-q09": {
+   "subject": "shabbat",
+   "criteria": [
+    {
+     "id": "5786-iyar-shabbat-yishum-q09.C1",
+     "points": 6,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5786-iyar-shabbat-yishum-q09.C2",
+     "points": 5,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5786-iyar-shabbat-yishum-q09.C3",
+     "points": 5,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5786-iyar-shabbat-yishum-q09.C4",
+     "points": 4,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5786-iyar-shabbat-yishum-q09.C5",
+     "points": 5,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5786-iyar-shabbat-yishum-q09.C6",
+     "points": 4,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5786-iyar-shabbat-yishum-q09.C7",
+     "points": 5,
+     "axis": "sources",
+     "status": "approved"
+    },
+    {
+     "id": "5786-iyar-shabbat-yishum-q09.C8",
+     "points": 4,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5786-iyar-shabbat-yishum-q09.C9",
+     "points": 4,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5786-iyar-shabbat-yishum-q09.N1",
+     "points": -5,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5786-iyar-shabbat-yishum-q09.N2",
+     "points": -4,
+     "axis": "ruling",
+     "status": "approved"
+    }
+   ]
+  },
+  "5786-iyar-shabbat-yishum-q10": {
+   "subject": "shabbat",
+   "criteria": [
+    {
+     "id": "5786-iyar-shabbat-yishum-q10.C2",
+     "points": 6,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5786-iyar-shabbat-yishum-q10.C3",
+     "points": 5,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5786-iyar-shabbat-yishum-q10.C4",
+     "points": 6,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5786-iyar-shabbat-yishum-q10.C5",
+     "points": 5,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5786-iyar-shabbat-yishum-q10.C6",
+     "points": 5,
+     "axis": "accuracy",
+     "status": "approved"
+    },
+    {
+     "id": "5786-iyar-shabbat-yishum-q10.C7",
+     "points": 4,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5786-iyar-shabbat-yishum-q10.C8",
+     "points": 4,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5786-iyar-shabbat-yishum-q10.C9",
+     "points": 4,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5786-iyar-shabbat-yishum-q10.C10",
+     "points": 3,
+     "axis": "accuracy",
+     "status": "approved"
+    },
+    {
+     "id": "5786-iyar-shabbat-yishum-q10.N1",
+     "points": -5,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5786-iyar-shabbat-yishum-q10.N2",
+     "points": -4,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5786-iyar-shabbat-yishum-q10.N3",
+     "points": -3,
+     "axis": "ruling",
+     "status": "approved"
+    }
+   ]
+  },
+  "5786-iyar-shabbat-yishum-q11": {
+   "subject": "shabbat",
+   "criteria": [
+    {
+     "id": "5786-iyar-shabbat-yishum-q11.C1",
+     "points": 5,
+     "axis": "sources",
+     "status": "approved"
+    },
+    {
+     "id": "5786-iyar-shabbat-yishum-q11.C2",
+     "points": 5,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5786-iyar-shabbat-yishum-q11.C3",
+     "points": 4,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5786-iyar-shabbat-yishum-q11.C4",
+     "points": 5,
+     "axis": "sources",
+     "status": "approved"
+    },
+    {
+     "id": "5786-iyar-shabbat-yishum-q11.C5",
+     "points": 5,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5786-iyar-shabbat-yishum-q11.C6",
+     "points": 5,
+     "axis": "accuracy",
+     "status": "approved"
+    },
+    {
+     "id": "5786-iyar-shabbat-yishum-q11.C7",
+     "points": 5,
+     "axis": "sources",
+     "status": "approved"
+    },
+    {
+     "id": "5786-iyar-shabbat-yishum-q11.C8",
+     "points": 5,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5786-iyar-shabbat-yishum-q11.N1",
+     "points": -4,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5786-iyar-shabbat-yishum-q11.N2",
+     "points": -4,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5786-iyar-shabbat-yishum-q11.N3",
+     "points": -3,
+     "axis": "ruling",
+     "status": "approved"
+    }
+   ]
+  },
+  "5786-iyar-shabbat-yishum-q12": {
+   "subject": "shabbat",
+   "criteria": [
+    {
+     "id": "5786-iyar-shabbat-yishum-q12.C1",
+     "points": 5,
+     "axis": "sources",
+     "status": "approved"
+    },
+    {
+     "id": "5786-iyar-shabbat-yishum-q12.C2",
+     "points": 5,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5786-iyar-shabbat-yishum-q12.C3",
+     "points": 4,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5786-iyar-shabbat-yishum-q12.C4",
+     "points": 5,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5786-iyar-shabbat-yishum-q12.C5",
+     "points": 5,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5786-iyar-shabbat-yishum-q12.C6",
+     "points": 5,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5786-iyar-shabbat-yishum-q12.C7",
+     "points": 4,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5786-iyar-shabbat-yishum-q12.C8",
+     "points": 4,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5786-iyar-shabbat-yishum-q12.C9",
+     "points": 3,
+     "axis": "accuracy",
+     "status": "approved"
+    },
+    {
+     "id": "5786-iyar-shabbat-yishum-q12.N1",
+     "points": -5,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5786-iyar-shabbat-yishum-q12.N2",
+     "points": -4,
+     "axis": "ruling",
+     "status": "approved"
+    }
+   ]
+  },
+  "5787-cheshvan-chuppah-iyun-q01": {
+   "subject": "chuppah-kiddushin",
+   "criteria": [
+    {
+     "id": "5787-cheshvan-chuppah-iyun-q01.C1",
+     "points": 5,
+     "axis": "sources",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-chuppah-iyun-q01.C2",
+     "points": 5,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-chuppah-iyun-q01.C3",
+     "points": 4,
+     "axis": "accuracy",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-chuppah-iyun-q01.C4",
+     "points": 5,
+     "axis": "sources",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-chuppah-iyun-q01.C5",
+     "points": 6,
+     "axis": "accuracy",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-chuppah-iyun-q01.C6",
+     "points": 5,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-chuppah-iyun-q01.C7",
+     "points": 5,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-chuppah-iyun-q01.C8",
+     "points": 3,
+     "axis": "completeness",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-chuppah-iyun-q01.C9",
+     "points": 3,
+     "axis": "completeness",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-chuppah-iyun-q01.N1",
+     "points": -5,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-chuppah-iyun-q01.N2",
+     "points": -4,
+     "axis": "accuracy",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-chuppah-iyun-q01.N3",
+     "points": -3,
+     "axis": "accuracy",
+     "status": "approved"
+    }
+   ]
+  },
+  "5787-cheshvan-chuppah-iyun-q02": {
+   "subject": "chuppah-kiddushin",
+   "criteria": [
+    {
+     "id": "5787-cheshvan-chuppah-iyun-q02.C1",
+     "points": 5,
+     "axis": "sources",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-chuppah-iyun-q02.C2",
+     "points": 5,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-chuppah-iyun-q02.C3",
+     "points": 4,
+     "axis": "accuracy",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-chuppah-iyun-q02.C4",
+     "points": 5,
+     "axis": "accuracy",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-chuppah-iyun-q02.C5",
+     "points": 4,
+     "axis": "accuracy",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-chuppah-iyun-q02.C6",
+     "points": 5,
+     "axis": "accuracy",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-chuppah-iyun-q02.C7",
+     "points": 5,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-chuppah-iyun-q02.C8",
+     "points": 3,
+     "axis": "completeness",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-chuppah-iyun-q02.C9",
+     "points": 3,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-chuppah-iyun-q02.N1",
+     "points": -4,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-chuppah-iyun-q02.N2",
+     "points": -4,
+     "axis": "accuracy",
+     "status": "approved"
+    }
+   ]
+  },
+  "5787-cheshvan-chuppah-iyun-q03": {
+   "subject": "chuppah-kiddushin",
+   "criteria": [
+    {
+     "id": "5787-cheshvan-chuppah-iyun-q03.C1",
+     "points": 5,
+     "axis": "sources",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-chuppah-iyun-q03.C2",
+     "points": 4,
+     "axis": "accuracy",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-chuppah-iyun-q03.C3",
+     "points": 3,
+     "axis": "sources",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-chuppah-iyun-q03.C4",
+     "points": 4,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-chuppah-iyun-q03.C5",
+     "points": 4,
+     "axis": "sources",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-chuppah-iyun-q03.C6",
+     "points": 5,
+     "axis": "accuracy",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-chuppah-iyun-q03.C7",
+     "points": 4,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-chuppah-iyun-q03.C8",
+     "points": 4,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-chuppah-iyun-q03.C9",
+     "points": 5,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-chuppah-iyun-q03.N1",
+     "points": -4,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-chuppah-iyun-q03.N2",
+     "points": -4,
+     "axis": "accuracy",
+     "status": "approved"
+    }
+   ]
+  },
+  "5787-cheshvan-chuppah-iyun-q04": {
+   "subject": "chuppah-kiddushin",
+   "criteria": [
+    {
+     "id": "5787-cheshvan-chuppah-iyun-q04.C1",
+     "points": 5,
+     "axis": "sources",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-chuppah-iyun-q04.C2",
+     "points": 4,
+     "axis": "accuracy",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-chuppah-iyun-q04.C3",
+     "points": 4,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-chuppah-iyun-q04.C4",
+     "points": 5,
+     "axis": "sources",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-chuppah-iyun-q04.C5",
+     "points": 4,
+     "axis": "accuracy",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-chuppah-iyun-q04.C6",
+     "points": 4,
+     "axis": "accuracy",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-chuppah-iyun-q04.C7",
+     "points": 3,
+     "axis": "accuracy",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-chuppah-iyun-q04.C8",
+     "points": 5,
+     "axis": "sources",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-chuppah-iyun-q04.C9",
+     "points": 2,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-chuppah-iyun-q04.C10",
+     "points": 2,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-chuppah-iyun-q04.N1",
+     "points": -5,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-chuppah-iyun-q04.N2",
+     "points": -4,
+     "axis": "accuracy",
+     "status": "approved"
+    }
+   ]
+  },
+  "5787-cheshvan-chuppah-iyun-q05": {
+   "subject": "chuppah-kiddushin",
+   "criteria": [
+    {
+     "id": "5787-cheshvan-chuppah-iyun-q05.C1",
+     "points": 4,
+     "axis": "sources",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-chuppah-iyun-q05.C2",
+     "points": 4,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-chuppah-iyun-q05.C3",
+     "points": 5,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-chuppah-iyun-q05.C4",
+     "points": 3,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-chuppah-iyun-q05.C5",
+     "points": 4,
+     "axis": "accuracy",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-chuppah-iyun-q05.C6",
+     "points": 3,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-chuppah-iyun-q05.C11",
+     "points": 3,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-chuppah-iyun-q05.C7",
+     "points": 4,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-chuppah-iyun-q05.C8",
+     "points": 3,
+     "axis": "accuracy",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-chuppah-iyun-q05.C9",
+     "points": 4,
+     "axis": "accuracy",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-chuppah-iyun-q05.C10",
+     "points": 4,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-chuppah-iyun-q05.N2",
+     "points": -3,
+     "axis": "accuracy",
+     "status": "approved"
+    }
+   ]
+  },
+  "5787-cheshvan-chuppah-iyun-q06": {
+   "subject": "chuppah-kiddushin",
+   "criteria": [
+    {
+     "id": "5787-cheshvan-chuppah-iyun-q06.C1",
+     "points": 5,
+     "axis": "sources",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-chuppah-iyun-q06.C2",
+     "points": 5,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-chuppah-iyun-q06.C3",
+     "points": 4,
+     "axis": "accuracy",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-chuppah-iyun-q06.C4",
+     "points": 4,
+     "axis": "sources",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-chuppah-iyun-q06.C5",
+     "points": 4,
+     "axis": "accuracy",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-chuppah-iyun-q06.C6",
+     "points": 5,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-chuppah-iyun-q06.C7",
+     "points": 3,
+     "axis": "sources",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-chuppah-iyun-q06.C8",
+     "points": 5,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-chuppah-iyun-q06.N1",
+     "points": -5,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-chuppah-iyun-q06.N2",
+     "points": -4,
+     "axis": "ruling",
+     "status": "approved"
+    }
+   ]
+  },
+  "5787-cheshvan-chuppah-iyun-q07": {
+   "subject": "chuppah-kiddushin",
+   "criteria": [
+    {
+     "id": "5787-cheshvan-chuppah-iyun-q07.C1",
+     "points": 4,
+     "axis": "sources",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-chuppah-iyun-q07.C2",
+     "points": 5,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-chuppah-iyun-q07.C3",
+     "points": 4,
+     "axis": "accuracy",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-chuppah-iyun-q07.C4",
+     "points": 6,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-chuppah-iyun-q07.C5",
+     "points": 3,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-chuppah-iyun-q07.C6",
+     "points": 6,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-chuppah-iyun-q07.C7",
+     "points": 3,
+     "axis": "accuracy",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-chuppah-iyun-q07.C8",
+     "points": 5,
+     "axis": "accuracy",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-chuppah-iyun-q07.C9",
+     "points": 6,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-chuppah-iyun-q07.C10",
+     "points": 3,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-chuppah-iyun-q07.N1",
+     "points": -5,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-chuppah-iyun-q07.N2",
+     "points": -4,
+     "axis": "accuracy",
+     "status": "approved"
+    }
+   ]
+  },
+  "5787-cheshvan-chuppah-iyun-q08": {
+   "subject": "chuppah-kiddushin",
+   "criteria": [
+    {
+     "id": "5787-cheshvan-chuppah-iyun-q08.C1",
+     "points": 5,
+     "axis": "sources",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-chuppah-iyun-q08.C2",
+     "points": 5,
+     "axis": "sources",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-chuppah-iyun-q08.C3",
+     "points": 6,
+     "axis": "accuracy",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-chuppah-iyun-q08.C4",
+     "points": 2,
+     "axis": "context",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-chuppah-iyun-q08.C5",
+     "points": 6,
+     "axis": "accuracy",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-chuppah-iyun-q08.C6",
+     "points": 5,
+     "axis": "accuracy",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-chuppah-iyun-q08.C7",
+     "points": 6,
+     "axis": "accuracy",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-chuppah-iyun-q08.C8",
+     "points": 3,
+     "axis": "sources",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-chuppah-iyun-q08.N1",
+     "points": -4,
+     "axis": "accuracy",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-chuppah-iyun-q08.N2",
+     "points": -3,
+     "axis": "accuracy",
+     "status": "approved"
+    }
+   ]
+  },
+  "5787-cheshvan-chuppah-yishum-q09": {
+   "subject": "chuppah-kiddushin",
+   "criteria": [
+    {
+     "id": "5787-cheshvan-chuppah-yishum-q09.C1",
+     "points": 5,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-chuppah-yishum-q09.C2",
+     "points": 4,
+     "axis": "accuracy",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-chuppah-yishum-q09.C3",
+     "points": 5,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-chuppah-yishum-q09.C4",
+     "points": 4,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-chuppah-yishum-q09.C5",
+     "points": 5,
+     "axis": "accuracy",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-chuppah-yishum-q09.C6",
+     "points": 5,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-chuppah-yishum-q09.C7",
+     "points": 5,
+     "axis": "accuracy",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-chuppah-yishum-q09.C8",
+     "points": 6,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-chuppah-yishum-q09.N1",
+     "points": -4,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-chuppah-yishum-q09.N2",
+     "points": -3,
+     "axis": "ruling",
+     "status": "approved"
+    }
+   ]
+  },
+  "5787-cheshvan-chuppah-yishum-q10": {
+   "subject": "chuppah-kiddushin",
+   "criteria": [
+    {
+     "id": "5787-cheshvan-chuppah-yishum-q10.C1",
+     "points": 4,
+     "axis": "sources",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-chuppah-yishum-q10.C2",
+     "points": 6,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-chuppah-yishum-q10.C3",
+     "points": 6,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-chuppah-yishum-q10.C4",
+     "points": 4,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-chuppah-yishum-q10.C5",
+     "points": 4,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-chuppah-yishum-q10.C6",
+     "points": 5,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-chuppah-yishum-q10.C7",
+     "points": 5,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-chuppah-yishum-q10.C8",
+     "points": 4,
+     "axis": "accuracy",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-chuppah-yishum-q10.C9",
+     "points": 2,
+     "axis": "context",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-chuppah-yishum-q10.N1",
+     "points": -4,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-chuppah-yishum-q10.N2",
+     "points": -3,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-chuppah-yishum-q10.N3",
+     "points": -4,
+     "axis": "ruling",
+     "status": "approved"
+    }
+   ]
+  },
+  "5787-cheshvan-chuppah-yishum-q11": {
+   "subject": "chuppah-kiddushin",
+   "criteria": [
+    {
+     "id": "5787-cheshvan-chuppah-yishum-q11.C1",
+     "points": 4,
+     "axis": "sources",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-chuppah-yishum-q11.C2",
+     "points": 6,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-chuppah-yishum-q11.C3",
+     "points": 5,
+     "axis": "accuracy",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-chuppah-yishum-q11.C4",
+     "points": 5,
+     "axis": "accuracy",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-chuppah-yishum-q11.C5",
+     "points": 4,
+     "axis": "accuracy",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-chuppah-yishum-q11.C6",
+     "points": 5,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-chuppah-yishum-q11.C7",
+     "points": 4,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-chuppah-yishum-q11.C8",
+     "points": 4,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-chuppah-yishum-q11.N1",
+     "points": -5,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-chuppah-yishum-q11.N2",
+     "points": -3,
+     "axis": "accuracy",
+     "status": "approved"
+    }
+   ]
+  },
+  "5787-cheshvan-chuppah-yishum-q12": {
+   "subject": "chuppah-kiddushin",
+   "criteria": [
+    {
+     "id": "5787-cheshvan-chuppah-yishum-q12.C1",
+     "points": 5,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-chuppah-yishum-q12.C2",
+     "points": 4,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-chuppah-yishum-q12.C3",
+     "points": 8,
+     "axis": "accuracy",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-chuppah-yishum-q12.C4",
+     "points": 2,
+     "axis": "accuracy",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-chuppah-yishum-q12.C5",
+     "points": 2,
+     "axis": "accuracy",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-chuppah-yishum-q12.C6",
+     "points": 5,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-chuppah-yishum-q12.C7",
+     "points": 6,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-chuppah-yishum-q12.C8",
+     "points": 3,
+     "axis": "context",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-chuppah-yishum-q12.C9",
+     "points": 2,
+     "axis": "context",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-chuppah-yishum-q12.N1",
+     "points": -4,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-chuppah-yishum-q12.N2",
+     "points": -4,
+     "axis": "accuracy",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-chuppah-yishum-q12.N3",
+     "points": -4,
+     "axis": "ruling",
+     "status": "approved"
+    }
+   ]
+  },
+  "5787-cheshvan-mikvaot-iyun-q01": {
+   "subject": "mikvaot",
+   "criteria": [
+    {
+     "id": "5787-cheshvan-mikvaot-iyun-q01.C1",
+     "points": 5,
+     "axis": "sources",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-mikvaot-iyun-q01.C2",
+     "points": 5,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-mikvaot-iyun-q01.C3",
+     "points": 4,
+     "axis": "accuracy",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-mikvaot-iyun-q01.C4",
+     "points": 5,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-mikvaot-iyun-q01.C5",
+     "points": 3,
+     "axis": "sources",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-mikvaot-iyun-q01.C6",
+     "points": 4,
+     "axis": "accuracy",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-mikvaot-iyun-q01.C7",
+     "points": 6,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-mikvaot-iyun-q01.C8",
+     "points": 3,
+     "axis": "sources",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-mikvaot-iyun-q01.C9",
+     "points": 2,
+     "axis": "completeness",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-mikvaot-iyun-q01.C10",
+     "points": 2,
+     "axis": "accuracy",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-mikvaot-iyun-q01.N1",
+     "points": -5,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-mikvaot-iyun-q01.N2",
+     "points": -4,
+     "axis": "accuracy",
+     "status": "approved"
+    }
+   ]
+  },
+  "5787-cheshvan-mikvaot-iyun-q02": {
+   "subject": "mikvaot",
+   "criteria": [
+    {
+     "id": "5787-cheshvan-mikvaot-iyun-q02.C1",
+     "points": 6,
+     "axis": "accuracy",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-mikvaot-iyun-q02.C2",
+     "points": 4,
+     "axis": "sources",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-mikvaot-iyun-q02.C3",
+     "points": 4,
+     "axis": "accuracy",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-mikvaot-iyun-q02.C4",
+     "points": 5,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-mikvaot-iyun-q02.C5",
+     "points": 2,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-mikvaot-iyun-q02.C6",
+     "points": 5,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-mikvaot-iyun-q02.C7",
+     "points": 3,
+     "axis": "sources",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-mikvaot-iyun-q02.C8",
+     "points": 2,
+     "axis": "completeness",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-mikvaot-iyun-q02.N1",
+     "points": -5,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-mikvaot-iyun-q02.N2",
+     "points": -3,
+     "axis": "accuracy",
+     "status": "approved"
+    }
+   ]
+  },
+  "5787-cheshvan-mikvaot-iyun-q03": {
+   "subject": "mikvaot",
+   "criteria": [
+    {
+     "id": "5787-cheshvan-mikvaot-iyun-q03.C1",
+     "points": 6,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-mikvaot-iyun-q03.C2",
+     "points": 4,
+     "axis": "sources",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-mikvaot-iyun-q03.C3",
+     "points": 3,
+     "axis": "accuracy",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-mikvaot-iyun-q03.C4",
+     "points": 5,
+     "axis": "accuracy",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-mikvaot-iyun-q03.C5",
+     "points": 5,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-mikvaot-iyun-q03.C6",
+     "points": 5,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-mikvaot-iyun-q03.C7",
+     "points": 3,
+     "axis": "sources",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-mikvaot-iyun-q03.C8",
+     "points": 3,
+     "axis": "accuracy",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-mikvaot-iyun-q03.N1",
+     "points": -5,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-mikvaot-iyun-q03.N2",
+     "points": -3,
+     "axis": "accuracy",
+     "status": "approved"
+    }
+   ]
+  },
+  "5787-cheshvan-mikvaot-iyun-q04": {
+   "subject": "mikvaot",
+   "criteria": [
+    {
+     "id": "5787-cheshvan-mikvaot-iyun-q04.C1",
+     "points": 4,
+     "axis": "sources",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-mikvaot-iyun-q04.C2",
+     "points": 5,
+     "axis": "accuracy",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-mikvaot-iyun-q04.C3",
+     "points": 5,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-mikvaot-iyun-q04.C4",
+     "points": 4,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-mikvaot-iyun-q04.C5",
+     "points": 5,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-mikvaot-iyun-q04.C6",
+     "points": 3,
+     "axis": "accuracy",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-mikvaot-iyun-q04.C7",
+     "points": 3,
+     "axis": "accuracy",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-mikvaot-iyun-q04.C8",
+     "points": 6,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-mikvaot-iyun-q04.N1",
+     "points": -5,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-mikvaot-iyun-q04.N2",
+     "points": -4,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-mikvaot-iyun-q04.N3",
+     "points": -3,
+     "axis": "accuracy",
+     "status": "approved"
+    }
+   ]
+  },
+  "5787-cheshvan-mikvaot-iyun-q05": {
+   "subject": "mikvaot",
+   "criteria": [
+    {
+     "id": "5787-cheshvan-mikvaot-iyun-q05.C1",
+     "points": 4,
+     "axis": "sources",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-mikvaot-iyun-q05.C2",
+     "points": 5,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-mikvaot-iyun-q05.C3",
+     "points": 3,
+     "axis": "accuracy",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-mikvaot-iyun-q05.C4",
+     "points": 5,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-mikvaot-iyun-q05.C5",
+     "points": 3,
+     "axis": "accuracy",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-mikvaot-iyun-q05.C6",
+     "points": 5,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-mikvaot-iyun-q05.C7",
+     "points": 3,
+     "axis": "sources",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-mikvaot-iyun-q05.N1",
+     "points": -5,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-mikvaot-iyun-q05.N2",
+     "points": -3,
+     "axis": "ruling",
+     "status": "approved"
+    }
+   ]
+  },
+  "5787-cheshvan-mikvaot-iyun-q06": {
+   "subject": "mikvaot",
+   "criteria": [
+    {
+     "id": "5787-cheshvan-mikvaot-iyun-q06.C1",
+     "points": 4,
+     "axis": "sources",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-mikvaot-iyun-q06.C2",
+     "points": 5,
+     "axis": "accuracy",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-mikvaot-iyun-q06.C3",
+     "points": 5,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-mikvaot-iyun-q06.C4",
+     "points": 5,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-mikvaot-iyun-q06.C5",
+     "points": 4,
+     "axis": "sources",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-mikvaot-iyun-q06.C6",
+     "points": 6,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-mikvaot-iyun-q06.C7",
+     "points": 3,
+     "axis": "accuracy",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-mikvaot-iyun-q06.C8",
+     "points": 2,
+     "axis": "completeness",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-mikvaot-iyun-q06.C9",
+     "points": 2,
+     "axis": "accuracy",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-mikvaot-iyun-q06.N1",
+     "points": -5,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-mikvaot-iyun-q06.N2",
+     "points": -4,
+     "axis": "ruling",
+     "status": "approved"
+    }
+   ]
+  },
+  "5787-cheshvan-mikvaot-iyun-q07": {
+   "subject": "mikvaot",
+   "criteria": [
+    {
+     "id": "5787-cheshvan-mikvaot-iyun-q07.C1",
+     "points": 6,
+     "axis": "sources",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-mikvaot-iyun-q07.C2",
+     "points": 6,
+     "axis": "accuracy",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-mikvaot-iyun-q07.C3",
+     "points": 3,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-mikvaot-iyun-q07.C4",
+     "points": 2,
+     "axis": "accuracy",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-mikvaot-iyun-q07.C5",
+     "points": 1,
+     "axis": "completeness",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-mikvaot-iyun-q07.C6",
+     "points": 8,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-mikvaot-iyun-q07.C7",
+     "points": 8,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-mikvaot-iyun-q07.C8",
+     "points": 3,
+     "axis": "context",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-mikvaot-iyun-q07.C9",
+     "points": 2,
+     "axis": "completeness",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-mikvaot-iyun-q07.N1",
+     "points": -4,
+     "axis": "accuracy",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-mikvaot-iyun-q07.N2",
+     "points": -4,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-mikvaot-iyun-q07.N3",
+     "points": -3,
+     "axis": "ruling",
+     "status": "approved"
+    }
+   ]
+  },
+  "5787-cheshvan-mikvaot-iyun-q08": {
+   "subject": "mikvaot",
+   "criteria": [
+    {
+     "id": "5787-cheshvan-mikvaot-iyun-q08.C1",
+     "points": 6,
+     "axis": "sources",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-mikvaot-iyun-q08.C2",
+     "points": 5,
+     "axis": "sources",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-mikvaot-iyun-q08.C3",
+     "points": 5,
+     "axis": "sources",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-mikvaot-iyun-q08.C4",
+     "points": 5,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-mikvaot-iyun-q08.C5",
+     "points": 6,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-mikvaot-iyun-q08.C6",
+     "points": 2,
+     "axis": "context",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-mikvaot-iyun-q08.C7",
+     "points": 6,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-mikvaot-iyun-q08.C8",
+     "points": 3,
+     "axis": "accuracy",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-mikvaot-iyun-q08.C9",
+     "points": 4,
+     "axis": "accuracy",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-mikvaot-iyun-q08.N1",
+     "points": -4,
+     "axis": "accuracy",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-mikvaot-iyun-q08.N2",
+     "points": -3,
+     "axis": "ruling",
+     "status": "approved"
+    }
+   ]
+  },
+  "5787-cheshvan-mikvaot-yishum-q09": {
+   "subject": "mikvaot",
+   "criteria": [
+    {
+     "id": "5787-cheshvan-mikvaot-yishum-q09.C1",
+     "points": 6,
+     "axis": "sources",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-mikvaot-yishum-q09.C2",
+     "points": 5,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-mikvaot-yishum-q09.C3",
+     "points": 4,
+     "axis": "accuracy",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-mikvaot-yishum-q09.C4",
+     "points": 5,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-mikvaot-yishum-q09.C5",
+     "points": 5,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-mikvaot-yishum-q09.C6",
+     "points": 3,
+     "axis": "sources",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-mikvaot-yishum-q09.C7",
+     "points": 6,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-mikvaot-yishum-q09.C8",
+     "points": 4,
+     "axis": "completeness",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-mikvaot-yishum-q09.C9",
+     "points": 2,
+     "axis": "accuracy",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-mikvaot-yishum-q09.N1",
+     "points": -5,
+     "axis": "accuracy",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-mikvaot-yishum-q09.N2",
+     "points": -4,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-mikvaot-yishum-q09.N3",
+     "points": -3,
+     "axis": "calibration",
+     "status": "approved"
+    }
+   ]
+  },
+  "5787-cheshvan-mikvaot-yishum-q10": {
+   "subject": "mikvaot",
+   "criteria": [
+    {
+     "id": "5787-cheshvan-mikvaot-yishum-q10.C1",
+     "points": 3,
+     "axis": "accuracy",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-mikvaot-yishum-q10.C2",
+     "points": 5,
+     "axis": "sources",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-mikvaot-yishum-q10.C3",
+     "points": 4,
+     "axis": "completeness",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-mikvaot-yishum-q10.C4",
+     "points": 2,
+     "axis": "accuracy",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-mikvaot-yishum-q10.C5",
+     "points": 4,
+     "axis": "sources",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-mikvaot-yishum-q10.C6",
+     "points": 6,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-mikvaot-yishum-q10.C7",
+     "points": 6,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-mikvaot-yishum-q10.C8",
+     "points": 3,
+     "axis": "completeness",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-mikvaot-yishum-q10.N1",
+     "points": -4,
+     "axis": "accuracy",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-mikvaot-yishum-q10.N2",
+     "points": -3,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-mikvaot-yishum-q10.N3",
+     "points": -3,
+     "axis": "accuracy",
+     "status": "approved"
+    }
+   ]
+  },
+  "5787-cheshvan-mikvaot-yishum-q11": {
+   "subject": "mikvaot",
+   "criteria": [
+    {
+     "id": "5787-cheshvan-mikvaot-yishum-q11.C1",
+     "points": 6,
+     "axis": "sources",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-mikvaot-yishum-q11.C2",
+     "points": 6,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-mikvaot-yishum-q11.C3",
+     "points": 4,
+     "axis": "accuracy",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-mikvaot-yishum-q11.C4",
+     "points": 5,
+     "axis": "sources",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-mikvaot-yishum-q11.C5",
+     "points": 5,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-mikvaot-yishum-q11.C6",
+     "points": 6,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-mikvaot-yishum-q11.C7",
+     "points": 3,
+     "axis": "completeness",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-mikvaot-yishum-q11.C8",
+     "points": 3,
+     "axis": "accuracy",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-mikvaot-yishum-q11.N1",
+     "points": -5,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-mikvaot-yishum-q11.N2",
+     "points": -3,
+     "axis": "accuracy",
+     "status": "approved"
+    }
+   ]
+  },
+  "5787-cheshvan-mikvaot-yishum-q12": {
+   "subject": "mikvaot",
+   "criteria": [
+    {
+     "id": "5787-cheshvan-mikvaot-yishum-q12.C1",
+     "points": 6,
+     "axis": "sources",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-mikvaot-yishum-q12.C2",
+     "points": 3,
+     "axis": "accuracy",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-mikvaot-yishum-q12.C3",
+     "points": 6,
+     "axis": "sources",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-mikvaot-yishum-q12.C4",
+     "points": 1,
+     "axis": "context",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-mikvaot-yishum-q12.C5",
+     "points": 6,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-mikvaot-yishum-q12.C6",
+     "points": 4,
+     "axis": "completeness",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-mikvaot-yishum-q12.C7",
+     "points": 3,
+     "axis": "sources",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-mikvaot-yishum-q12.C8",
+     "points": 3,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-mikvaot-yishum-q12.N1",
+     "points": -5,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-mikvaot-yishum-q12.N2",
+     "points": -4,
+     "axis": "accuracy",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-mikvaot-yishum-q12.N3",
+     "points": -3,
+     "axis": "accuracy",
+     "status": "approved"
+    }
+   ]
+  },
+  "5787-cheshvan-niddah-iyun-q01": {
+   "subject": "niddah",
+   "criteria": [
+    {
+     "id": "5787-cheshvan-niddah-iyun-q01.C1",
+     "points": 5,
+     "axis": "sources",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-niddah-iyun-q01.C2",
+     "points": 5,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-niddah-iyun-q01.C3",
+     "points": 5,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-niddah-iyun-q01.C4",
+     "points": 4,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-niddah-iyun-q01.C5",
+     "points": 3,
+     "axis": "accuracy",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-niddah-iyun-q01.C9",
+     "points": 2,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-niddah-iyun-q01.C6",
+     "points": 5,
+     "axis": "accuracy",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-niddah-iyun-q01.C7",
+     "points": 5,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-niddah-iyun-q01.C8",
+     "points": 3,
+     "axis": "calibration",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-niddah-iyun-q01.N1",
+     "points": -5,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-niddah-iyun-q01.N2",
+     "points": -3,
+     "axis": "ruling",
+     "status": "approved"
+    }
+   ]
+  },
+  "5787-cheshvan-niddah-iyun-q02": {
+   "subject": "niddah",
+   "criteria": [
+    {
+     "id": "5787-cheshvan-niddah-iyun-q02.C1",
+     "points": 5,
+     "axis": "sources",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-niddah-iyun-q02.C2",
+     "points": 5,
+     "axis": "sources",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-niddah-iyun-q02.C3",
+     "points": 5,
+     "axis": "sources",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-niddah-iyun-q02.C4",
+     "points": 5,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-niddah-iyun-q02.C5",
+     "points": 5,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-niddah-iyun-q02.C6",
+     "points": 5,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-niddah-iyun-q02.C7",
+     "points": 4,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-niddah-iyun-q02.N1",
+     "points": -5,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-niddah-iyun-q02.N2",
+     "points": -3,
+     "axis": "accuracy",
+     "status": "approved"
+    }
+   ]
+  },
+  "5787-cheshvan-niddah-iyun-q03": {
+   "subject": "niddah",
+   "criteria": [
+    {
+     "id": "5787-cheshvan-niddah-iyun-q03.C1",
+     "points": 4,
+     "axis": "sources",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-niddah-iyun-q03.C2",
+     "points": 5,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-niddah-iyun-q03.C3",
+     "points": 5,
+     "axis": "sources",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-niddah-iyun-q03.C4",
+     "points": 5,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-niddah-iyun-q03.C5",
+     "points": 5,
+     "axis": "sources",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-niddah-iyun-q03.C6",
+     "points": 5,
+     "axis": "accuracy",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-niddah-iyun-q03.C7",
+     "points": 4,
+     "axis": "accuracy",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-niddah-iyun-q03.C8",
+     "points": 5,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-niddah-iyun-q03.N1",
+     "points": -4,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-niddah-iyun-q03.N2",
+     "points": -3,
+     "axis": "accuracy",
+     "status": "approved"
+    }
+   ]
+  },
+  "5787-cheshvan-niddah-iyun-q04": {
+   "subject": "niddah",
+   "criteria": [
+    {
+     "id": "5787-cheshvan-niddah-iyun-q04.C1",
+     "points": 6,
+     "axis": "sources",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-niddah-iyun-q04.C2",
+     "points": 4,
+     "axis": "completeness",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-niddah-iyun-q04.C3",
+     "points": 4,
+     "axis": "completeness",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-niddah-iyun-q04.C4",
+     "points": 5,
+     "axis": "completeness",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-niddah-iyun-q04.C5",
+     "points": 5,
+     "axis": "accuracy",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-niddah-iyun-q04.C6",
+     "points": 5,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-niddah-iyun-q04.C7",
+     "points": 5,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-niddah-iyun-q04.C8",
+     "points": 5,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-niddah-iyun-q04.C9",
+     "points": 3,
+     "axis": "accuracy",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-niddah-iyun-q04.N1",
+     "points": -5,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-niddah-iyun-q04.N2",
+     "points": -3,
+     "axis": "accuracy",
+     "status": "approved"
+    }
+   ]
+  },
+  "5787-cheshvan-niddah-iyun-q05": {
+   "subject": "niddah",
+   "criteria": [
+    {
+     "id": "5787-cheshvan-niddah-iyun-q05.C1",
+     "points": 5,
+     "axis": "sources",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-niddah-iyun-q05.C2",
+     "points": 5,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-niddah-iyun-q05.C3",
+     "points": 4,
+     "axis": "accuracy",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-niddah-iyun-q05.C4",
+     "points": 5,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-niddah-iyun-q05.C5",
+     "points": 5,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-niddah-iyun-q05.C6",
+     "points": 4,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-niddah-iyun-q05.C7",
+     "points": 5,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-niddah-iyun-q05.C8",
+     "points": 3,
+     "axis": "accuracy",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-niddah-iyun-q05.N1",
+     "points": -5,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-niddah-iyun-q05.N2",
+     "points": -3,
+     "axis": "ruling",
+     "status": "approved"
+    }
+   ]
+  },
+  "5787-cheshvan-niddah-iyun-q06": {
+   "subject": "niddah",
+   "criteria": [
+    {
+     "id": "5787-cheshvan-niddah-iyun-q06.C1",
+     "points": 4,
+     "axis": "sources",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-niddah-iyun-q06.C2",
+     "points": 6,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-niddah-iyun-q06.C3",
+     "points": 3,
+     "axis": "calibration",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-niddah-iyun-q06.C4",
+     "points": 4,
+     "axis": "accuracy",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-niddah-iyun-q06.C5",
+     "points": 4,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-niddah-iyun-q06.C6",
+     "points": 5,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-niddah-iyun-q06.C7",
+     "points": 4,
+     "axis": "sources",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-niddah-iyun-q06.C8",
+     "points": 5,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-niddah-iyun-q06.C9",
+     "points": 4,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-niddah-iyun-q06.N1",
+     "points": -5,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-niddah-iyun-q06.N2",
+     "points": -3,
+     "axis": "accuracy",
+     "status": "approved"
+    }
+   ]
+  },
+  "5787-cheshvan-niddah-iyun-q07": {
+   "subject": "niddah",
+   "criteria": [
+    {
+     "id": "5787-cheshvan-niddah-iyun-q07.C1",
+     "points": 3,
+     "axis": "sources",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-niddah-iyun-q07.C2",
+     "points": 7,
+     "axis": "sources",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-niddah-iyun-q07.C3",
+     "points": 5,
+     "axis": "accuracy",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-niddah-iyun-q07.C4",
+     "points": 1,
+     "axis": "accuracy",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-niddah-iyun-q07.C5",
+     "points": 5,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-niddah-iyun-q07.C6",
+     "points": 2,
+     "axis": "completeness",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-niddah-iyun-q07.C7",
+     "points": 6,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-niddah-iyun-q07.C9",
+     "points": 2,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-niddah-iyun-q07.C8",
+     "points": 4,
+     "axis": "accuracy",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-niddah-iyun-q07.N1",
+     "points": -5,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-niddah-iyun-q07.N2",
+     "points": -3,
+     "axis": "accuracy",
+     "status": "approved"
+    }
+   ]
+  },
+  "5787-cheshvan-niddah-iyun-q08": {
+   "subject": "niddah",
+   "criteria": [
+    {
+     "id": "5787-cheshvan-niddah-iyun-q08.C1",
+     "points": 5,
+     "axis": "sources",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-niddah-iyun-q08.C2",
+     "points": 4,
+     "axis": "accuracy",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-niddah-iyun-q08.C3",
+     "points": 4,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-niddah-iyun-q08.C4",
+     "points": 5,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-niddah-iyun-q08.C5",
+     "points": 3,
+     "axis": "accuracy",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-niddah-iyun-q08.C6",
+     "points": 4,
+     "axis": "sources",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-niddah-iyun-q08.C7",
+     "points": 5,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-niddah-iyun-q08.C8",
+     "points": 4,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-niddah-iyun-q08.N1",
+     "points": -5,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-niddah-iyun-q08.N2",
+     "points": -3,
+     "axis": "accuracy",
+     "status": "approved"
+    }
+   ]
+  },
+  "5787-cheshvan-niddah-yishum-q09": {
+   "subject": "niddah",
+   "criteria": [
+    {
+     "id": "5787-cheshvan-niddah-yishum-q09.C1",
+     "points": 5,
+     "axis": "sources",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-niddah-yishum-q09.C2",
+     "points": 5,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-niddah-yishum-q09.C3",
+     "points": 3,
+     "axis": "accuracy",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-niddah-yishum-q09.C4",
+     "points": 4,
+     "axis": "sources",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-niddah-yishum-q09.C5",
+     "points": 4,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-niddah-yishum-q09.C6",
+     "points": 4,
+     "axis": "sources",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-niddah-yishum-q09.C7",
+     "points": 5,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-niddah-yishum-q09.C8",
+     "points": 3,
+     "axis": "completeness",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-niddah-yishum-q09.C9",
+     "points": 2,
+     "axis": "completeness",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-niddah-yishum-q09.N1",
+     "points": -4,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-niddah-yishum-q09.N2",
+     "points": -4,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-niddah-yishum-q09.N3",
+     "points": -3,
+     "axis": "accuracy",
+     "status": "approved"
+    }
+   ]
+  },
+  "5787-cheshvan-niddah-yishum-q10": {
+   "subject": "niddah",
+   "criteria": [
+    {
+     "id": "5787-cheshvan-niddah-yishum-q10.C1",
+     "points": 4,
+     "axis": "accuracy",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-niddah-yishum-q10.C2",
+     "points": 5,
+     "axis": "sources",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-niddah-yishum-q10.C3",
+     "points": 7,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-niddah-yishum-q10.C4",
+     "points": 5,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-niddah-yishum-q10.C5",
+     "points": 6,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-niddah-yishum-q10.C6",
+     "points": 4,
+     "axis": "sources",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-niddah-yishum-q10.C7",
+     "points": 6,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-niddah-yishum-q10.C8",
+     "points": 3,
+     "axis": "completeness",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-niddah-yishum-q10.C10",
+     "points": 2,
+     "axis": "completeness",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-niddah-yishum-q10.N1",
+     "points": -4,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-niddah-yishum-q10.N2",
+     "points": -4,
+     "axis": "ruling",
+     "status": "approved"
+    }
+   ]
+  },
+  "5787-cheshvan-niddah-yishum-q11": {
+   "subject": "niddah",
+   "criteria": [
+    {
+     "id": "5787-cheshvan-niddah-yishum-q11.C1",
+     "points": 5,
+     "axis": "sources",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-niddah-yishum-q11.C2",
+     "points": 5,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-niddah-yishum-q11.C3",
+     "points": 4,
+     "axis": "sources",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-niddah-yishum-q11.C4",
+     "points": 5,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-niddah-yishum-q11.C5",
+     "points": 4,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-niddah-yishum-q11.C6",
+     "points": 4,
+     "axis": "accuracy",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-niddah-yishum-q11.C7",
+     "points": 6,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-niddah-yishum-q11.C8",
+     "points": 3,
+     "axis": "accuracy",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-niddah-yishum-q11.N1",
+     "points": -5,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-niddah-yishum-q11.N2",
+     "points": -3,
+     "axis": "accuracy",
+     "status": "approved"
+    }
+   ]
+  },
+  "5787-cheshvan-niddah-yishum-q12": {
+   "subject": "niddah",
+   "criteria": [
+    {
+     "id": "5787-cheshvan-niddah-yishum-q12.C1",
+     "points": 5,
+     "axis": "sources",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-niddah-yishum-q12.C2",
+     "points": 5,
+     "axis": "sources",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-niddah-yishum-q12.C3",
+     "points": 5,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-niddah-yishum-q12.C4",
+     "points": 4,
+     "axis": "accuracy",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-niddah-yishum-q12.C5",
+     "points": 5,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-niddah-yishum-q12.C6",
+     "points": 4,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-niddah-yishum-q12.C7",
+     "points": 4,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-niddah-yishum-q12.C8",
+     "points": 3,
+     "axis": "completeness",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-niddah-yishum-q12.N1",
+     "points": -5,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-niddah-yishum-q12.N2",
+     "points": -4,
+     "axis": "ruling",
+     "status": "approved"
+    }
+   ]
+  },
+  "5787-cheshvan-tefillah-iyun-q01": {
+   "subject": "tefillah-brachot",
+   "criteria": [
+    {
+     "id": "5787-cheshvan-tefillah-iyun-q01.C1",
+     "points": 4,
+     "axis": "sources",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-tefillah-iyun-q01.C2",
+     "points": 7,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-tefillah-iyun-q01.C3",
+     "points": 5,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-tefillah-iyun-q01.C4",
+     "points": 3,
+     "axis": "accuracy",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-tefillah-iyun-q01.C5",
+     "points": 4,
+     "axis": "sources",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-tefillah-iyun-q01.C6",
+     "points": 7,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-tefillah-iyun-q01.C7",
+     "points": 4,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-tefillah-iyun-q01.C8",
+     "points": 5,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-tefillah-iyun-q01.C9",
+     "points": 6,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-tefillah-iyun-q01.C10",
+     "points": 6,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-tefillah-iyun-q01.N1",
+     "points": -4,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-tefillah-iyun-q01.N2",
+     "points": -3,
+     "axis": "accuracy",
+     "status": "approved"
+    }
+   ]
+  },
+  "5787-cheshvan-tefillah-iyun-q02": {
+   "subject": "tefillah-brachot",
+   "criteria": [
+    {
+     "id": "5787-cheshvan-tefillah-iyun-q02.C1",
+     "points": 7,
+     "axis": "accuracy",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-tefillah-iyun-q02.C2",
+     "points": 6,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-tefillah-iyun-q02.C3",
+     "points": 4,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-tefillah-iyun-q02.C4",
+     "points": 5,
+     "axis": "accuracy",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-tefillah-iyun-q02.C5",
+     "points": 4,
+     "axis": "accuracy",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-tefillah-iyun-q02.C6",
+     "points": 4,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-tefillah-iyun-q02.C7",
+     "points": 7,
+     "axis": "accuracy",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-tefillah-iyun-q02.C8",
+     "points": 3,
+     "axis": "accuracy",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-tefillah-iyun-q02.C9",
+     "points": 4,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-tefillah-iyun-q02.C10",
+     "points": 6,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-tefillah-iyun-q02.N1",
+     "points": -3,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-tefillah-iyun-q02.N2",
+     "points": -3,
+     "axis": "accuracy",
+     "status": "approved"
+    }
+   ]
+  },
+  "5787-cheshvan-tefillah-iyun-q03": {
+   "subject": "tefillah-brachot",
+   "criteria": [
+    {
+     "id": "5787-cheshvan-tefillah-iyun-q03.C1",
+     "points": 3,
+     "axis": "sources",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-tefillah-iyun-q03.C2",
+     "points": 5,
+     "axis": "accuracy",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-tefillah-iyun-q03.C3",
+     "points": 8,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-tefillah-iyun-q03.C4",
+     "points": 5,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-tefillah-iyun-q03.C5",
+     "points": 5,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-tefillah-iyun-q03.C6",
+     "points": 5,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-tefillah-iyun-q03.C8",
+     "points": 6,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-tefillah-iyun-q03.C9",
+     "points": 3,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-tefillah-iyun-q03.C10",
+     "points": 7,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-tefillah-iyun-q03.C11",
+     "points": 3,
+     "axis": "accuracy",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-tefillah-iyun-q03.N1",
+     "points": -5,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-tefillah-iyun-q03.N2",
+     "points": -3,
+     "axis": "accuracy",
+     "status": "approved"
+    }
+   ]
+  },
+  "5787-cheshvan-tefillah-iyun-q04": {
+   "subject": "tefillah-brachot",
+   "criteria": [
+    {
+     "id": "5787-cheshvan-tefillah-iyun-q04.C1",
+     "points": 6,
+     "axis": "sources",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-tefillah-iyun-q04.C2",
+     "points": 6,
+     "axis": "accuracy",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-tefillah-iyun-q04.C3",
+     "points": 5,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-tefillah-iyun-q04.C4",
+     "points": 6,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-tefillah-iyun-q04.C5",
+     "points": 2,
+     "axis": "accuracy",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-tefillah-iyun-q04.C6",
+     "points": 7,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-tefillah-iyun-q04.C7",
+     "points": 5,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-tefillah-iyun-q04.C8",
+     "points": 3,
+     "axis": "sources",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-tefillah-iyun-q04.C9",
+     "points": 7,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-tefillah-iyun-q04.C10",
+     "points": 3,
+     "axis": "accuracy",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-tefillah-iyun-q04.N1",
+     "points": -4,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-tefillah-iyun-q04.N2",
+     "points": -3,
+     "axis": "accuracy",
+     "status": "approved"
+    }
+   ]
+  },
+  "5787-cheshvan-tefillah-iyun-q05": {
+   "subject": "tefillah-brachot",
+   "criteria": [
+    {
+     "id": "5787-cheshvan-tefillah-iyun-q05.C1",
+     "points": 8,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-tefillah-iyun-q05.C2",
+     "points": 5,
+     "axis": "accuracy",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-tefillah-iyun-q05.C3",
+     "points": 5,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-tefillah-iyun-q05.C4",
+     "points": 5,
+     "axis": "sources",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-tefillah-iyun-q05.C5",
+     "points": 6,
+     "axis": "accuracy",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-tefillah-iyun-q05.C6",
+     "points": 4,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-tefillah-iyun-q05.C7",
+     "points": 6,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-tefillah-iyun-q05.C8",
+     "points": 5,
+     "axis": "accuracy",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-tefillah-iyun-q05.C9",
+     "points": 6,
+     "axis": "accuracy",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-tefillah-iyun-q05.N1",
+     "points": -3,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-tefillah-iyun-q05.N2",
+     "points": -3,
+     "axis": "accuracy",
+     "status": "approved"
+    }
+   ]
+  },
+  "5787-cheshvan-tefillah-iyun-q06": {
+   "subject": "tefillah-brachot",
+   "criteria": [
+    {
+     "id": "5787-cheshvan-tefillah-iyun-q06.C1",
+     "points": 7,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-tefillah-iyun-q06.C2",
+     "points": 3,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-tefillah-iyun-q06.C3",
+     "points": 6,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-tefillah-iyun-q06.C4",
+     "points": 5,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-tefillah-iyun-q06.C5",
+     "points": 6,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-tefillah-iyun-q06.C6",
+     "points": 3,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-tefillah-iyun-q06.C7",
+     "points": 4,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-tefillah-iyun-q06.C8",
+     "points": 4,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-tefillah-iyun-q06.C9",
+     "points": 7,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-tefillah-iyun-q06.C10",
+     "points": 5,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-tefillah-iyun-q06.N1",
+     "points": -4,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-tefillah-iyun-q06.N2",
+     "points": -3,
+     "axis": "ruling",
+     "status": "approved"
+    }
+   ]
+  },
+  "5787-cheshvan-tefillah-iyun-q07": {
+   "subject": "tefillah-brachot",
+   "criteria": [
+    {
+     "id": "5787-cheshvan-tefillah-iyun-q07.C1",
+     "points": 5,
+     "axis": "sources",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-tefillah-iyun-q07.C2",
+     "points": 5,
+     "axis": "accuracy",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-tefillah-iyun-q07.C3",
+     "points": 6,
+     "axis": "sources",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-tefillah-iyun-q07.C4",
+     "points": 6,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-tefillah-iyun-q07.C5",
+     "points": 5,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-tefillah-iyun-q07.C6",
+     "points": 5,
+     "axis": "accuracy",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-tefillah-iyun-q07.C7",
+     "points": 5,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-tefillah-iyun-q07.C8",
+     "points": 6,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-tefillah-iyun-q07.C9",
+     "points": 4,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-tefillah-iyun-q07.N1",
+     "points": -5,
+     "axis": "accuracy",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-tefillah-iyun-q07.N2",
+     "points": -3,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-tefillah-iyun-q07.N3",
+     "points": -3,
+     "axis": "accuracy",
+     "status": "approved"
+    }
+   ]
+  },
+  "5787-cheshvan-tefillah-iyun-q08": {
+   "subject": "tefillah-brachot",
+   "criteria": [
+    {
+     "id": "5787-cheshvan-tefillah-iyun-q08.C1",
+     "points": 5,
+     "axis": "sources",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-tefillah-iyun-q08.C2",
+     "points": 5,
+     "axis": "sources",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-tefillah-iyun-q08.C3",
+     "points": 5,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-tefillah-iyun-q08.C4",
+     "points": 2,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-tefillah-iyun-q08.C10",
+     "points": 3,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-tefillah-iyun-q08.C5",
+     "points": 5,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-tefillah-iyun-q08.C6",
+     "points": 5,
+     "axis": "accuracy",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-tefillah-iyun-q08.C7",
+     "points": 5,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-tefillah-iyun-q08.C8",
+     "points": 5,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-tefillah-iyun-q08.C9",
+     "points": 4,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-tefillah-iyun-q08.N1",
+     "points": -4,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-tefillah-iyun-q08.N3",
+     "points": -3,
+     "axis": "accuracy",
+     "status": "approved"
+    }
+   ]
+  },
+  "5787-cheshvan-tefillah-yishum-q09": {
+   "subject": "tefillah-brachot",
+   "criteria": [
+    {
+     "id": "5787-cheshvan-tefillah-yishum-q09.C1",
+     "points": 5,
+     "axis": "accuracy",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-tefillah-yishum-q09.C2",
+     "points": 5,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-tefillah-yishum-q09.C3",
+     "points": 6,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-tefillah-yishum-q09.C4",
+     "points": 7,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-tefillah-yishum-q09.C5",
+     "points": 4,
+     "axis": "accuracy",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-tefillah-yishum-q09.C6",
+     "points": 5,
+     "axis": "accuracy",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-tefillah-yishum-q09.C7",
+     "points": 6,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-tefillah-yishum-q09.C8",
+     "points": 5,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-tefillah-yishum-q09.N1",
+     "points": -5,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-tefillah-yishum-q09.N2",
+     "points": -4,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-tefillah-yishum-q09.N3",
+     "points": -3,
+     "axis": "ruling",
+     "status": "approved"
+    }
+   ]
+  },
+  "5787-cheshvan-tefillah-yishum-q10": {
+   "subject": "tefillah-brachot",
+   "criteria": [
+    {
+     "id": "5787-cheshvan-tefillah-yishum-q10.C1",
+     "points": 6,
+     "axis": "sources",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-tefillah-yishum-q10.C2",
+     "points": 6,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-tefillah-yishum-q10.C3",
+     "points": 5,
+     "axis": "accuracy",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-tefillah-yishum-q10.C4",
+     "points": 5,
+     "axis": "completeness",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-tefillah-yishum-q10.C5",
+     "points": 5,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-tefillah-yishum-q10.C6",
+     "points": 5,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-tefillah-yishum-q10.C7",
+     "points": 4,
+     "axis": "accuracy",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-tefillah-yishum-q10.C8",
+     "points": 4,
+     "axis": "accuracy",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-tefillah-yishum-q10.N1",
+     "points": -5,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-tefillah-yishum-q10.N2",
+     "points": -4,
+     "axis": "accuracy",
+     "status": "approved"
+    }
+   ]
+  },
+  "5787-cheshvan-tefillah-yishum-q11": {
+   "subject": "tefillah-brachot",
+   "criteria": [
+    {
+     "id": "5787-cheshvan-tefillah-yishum-q11.C1",
+     "points": 5,
+     "axis": "sources",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-tefillah-yishum-q11.C2",
+     "points": 5,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-tefillah-yishum-q11.C3",
+     "points": 5,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-tefillah-yishum-q11.C4",
+     "points": 5,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-tefillah-yishum-q11.C5",
+     "points": 6,
+     "axis": "accuracy",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-tefillah-yishum-q11.C6",
+     "points": 5,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-tefillah-yishum-q11.C7",
+     "points": 6,
+     "axis": "accuracy",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-tefillah-yishum-q11.C8",
+     "points": 6,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-tefillah-yishum-q11.N1",
+     "points": -4,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-tefillah-yishum-q11.N2",
+     "points": -4,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-tefillah-yishum-q11.N3",
+     "points": -3,
+     "axis": "accuracy",
+     "status": "approved"
+    }
+   ]
+  },
+  "5787-cheshvan-tefillah-yishum-q12": {
+   "subject": "tefillah-brachot",
+   "criteria": [
+    {
+     "id": "5787-cheshvan-tefillah-yishum-q12.C1",
+     "points": 5,
+     "axis": "sources",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-tefillah-yishum-q12.C2",
+     "points": 6,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-tefillah-yishum-q12.C3",
+     "points": 5,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-tefillah-yishum-q12.C4",
+     "points": 4,
+     "axis": "accuracy",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-tefillah-yishum-q12.C5",
+     "points": 5,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-tefillah-yishum-q12.C6",
+     "points": 5,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-tefillah-yishum-q12.C7",
+     "points": 5,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-tefillah-yishum-q12.C8",
+     "points": 4,
+     "axis": "accuracy",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-tefillah-yishum-q12.C9",
+     "points": 3,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-tefillah-yishum-q12.N1",
+     "points": -5,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-tefillah-yishum-q12.N2",
+     "points": -4,
+     "axis": "accuracy",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-tefillah-yishum-q12.N3",
+     "points": -3,
+     "axis": "ruling",
+     "status": "approved"
+    }
+   ]
+  },
+  "5787-cheshvan-teluyot-iyun-q01": {
+   "subject": "mitzvot-haaretz",
+   "criteria": [
+    {
+     "id": "5787-cheshvan-teluyot-iyun-q01.C1",
+     "points": 6,
+     "axis": "sources",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-teluyot-iyun-q01.C2",
+     "points": 5,
+     "axis": "accuracy",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-teluyot-iyun-q01.C3",
+     "points": 3,
+     "axis": "completeness",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-teluyot-iyun-q01.C4",
+     "points": 2,
+     "axis": "completeness",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-teluyot-iyun-q01.C5",
+     "points": 6,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-teluyot-iyun-q01.C6",
+     "points": 3,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-teluyot-iyun-q01.C7",
+     "points": 4,
+     "axis": "accuracy",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-teluyot-iyun-q01.C8",
+     "points": 4,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-teluyot-iyun-q01.N1",
+     "points": -5,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-teluyot-iyun-q01.N2",
+     "points": -3,
+     "axis": "ruling",
+     "status": "approved"
+    }
+   ]
+  },
+  "5787-cheshvan-teluyot-iyun-q02": {
+   "subject": "mitzvot-haaretz",
+   "criteria": [
+    {
+     "id": "5787-cheshvan-teluyot-iyun-q02.C1",
+     "points": 5,
+     "axis": "sources",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-teluyot-iyun-q02.C2",
+     "points": 3,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-teluyot-iyun-q02.C9",
+     "points": 3,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-teluyot-iyun-q02.C3",
+     "points": 5,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-teluyot-iyun-q02.C4",
+     "points": 4,
+     "axis": "sources",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-teluyot-iyun-q02.C5",
+     "points": 4,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-teluyot-iyun-q02.C6",
+     "points": 4,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-teluyot-iyun-q02.C7",
+     "points": 4,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-teluyot-iyun-q02.C8",
+     "points": 2,
+     "axis": "completeness",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-teluyot-iyun-q02.N1",
+     "points": -5,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-teluyot-iyun-q02.N2",
+     "points": -4,
+     "axis": "accuracy",
+     "status": "approved"
+    }
+   ]
+  },
+  "5787-cheshvan-teluyot-iyun-q03": {
+   "subject": "mitzvot-haaretz",
+   "criteria": [
+    {
+     "id": "5787-cheshvan-teluyot-iyun-q03.C1",
+     "points": 6,
+     "axis": "sources",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-teluyot-iyun-q03.C2",
+     "points": 3,
+     "axis": "accuracy",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-teluyot-iyun-q03.C3",
+     "points": 4,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-teluyot-iyun-q03.C4",
+     "points": 5,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-teluyot-iyun-q03.C5",
+     "points": 4,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-teluyot-iyun-q03.C9",
+     "points": 2,
+     "axis": "accuracy",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-teluyot-iyun-q03.C6",
+     "points": 3,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-teluyot-iyun-q03.C7",
+     "points": 3,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-teluyot-iyun-q03.C8",
+     "points": 3,
+     "axis": "sources",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-teluyot-iyun-q03.N1",
+     "points": -4,
+     "axis": "accuracy",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-teluyot-iyun-q03.N2",
+     "points": -3,
+     "axis": "ruling",
+     "status": "approved"
+    }
+   ]
+  },
+  "5787-cheshvan-teluyot-iyun-q04": {
+   "subject": "mitzvot-haaretz",
+   "criteria": [
+    {
+     "id": "5787-cheshvan-teluyot-iyun-q04.C1",
+     "points": 5,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-teluyot-iyun-q04.C2",
+     "points": 3,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-teluyot-iyun-q04.C3",
+     "points": 4,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-teluyot-iyun-q04.C4",
+     "points": 5,
+     "axis": "sources",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-teluyot-iyun-q04.C5",
+     "points": 4,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-teluyot-iyun-q04.C6",
+     "points": 5,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-teluyot-iyun-q04.C7",
+     "points": 3,
+     "axis": "accuracy",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-teluyot-iyun-q04.C8",
+     "points": 3,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-teluyot-iyun-q04.C9",
+     "points": 2,
+     "axis": "completeness",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-teluyot-iyun-q04.N1",
+     "points": -5,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-teluyot-iyun-q04.N2",
+     "points": -4,
+     "axis": "ruling",
+     "status": "approved"
+    }
+   ]
+  },
+  "5787-cheshvan-teluyot-iyun-q05": {
+   "subject": "mitzvot-haaretz",
+   "criteria": [
+    {
+     "id": "5787-cheshvan-teluyot-iyun-q05.C1",
+     "points": 5,
+     "axis": "sources",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-teluyot-iyun-q05.C2",
+     "points": 4,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-teluyot-iyun-q05.C3",
+     "points": 3,
+     "axis": "accuracy",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-teluyot-iyun-q05.C4",
+     "points": 5,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-teluyot-iyun-q05.C5",
+     "points": 4,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-teluyot-iyun-q05.C6",
+     "points": 4,
+     "axis": "sources",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-teluyot-iyun-q05.C7",
+     "points": 3,
+     "axis": "accuracy",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-teluyot-iyun-q05.C8",
+     "points": 3,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-teluyot-iyun-q05.N1",
+     "points": -4,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-teluyot-iyun-q05.N2",
+     "points": -4,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-teluyot-iyun-q05.N3",
+     "points": -3,
+     "axis": "accuracy",
+     "status": "approved"
+    }
+   ]
+  },
+  "5787-cheshvan-teluyot-iyun-q06": {
+   "subject": "mitzvot-haaretz",
+   "criteria": [
+    {
+     "id": "5787-cheshvan-teluyot-iyun-q06.C1",
+     "points": 5,
+     "axis": "sources",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-teluyot-iyun-q06.C2",
+     "points": 4,
+     "axis": "sources",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-teluyot-iyun-q06.C3",
+     "points": 5,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-teluyot-iyun-q06.C4",
+     "points": 3,
+     "axis": "accuracy",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-teluyot-iyun-q06.C5",
+     "points": 4,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-teluyot-iyun-q06.C9",
+     "points": 3,
+     "axis": "accuracy",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-teluyot-iyun-q06.C6",
+     "points": 5,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-teluyot-iyun-q06.C7",
+     "points": 3,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-teluyot-iyun-q06.C8",
+     "points": 2,
+     "axis": "completeness",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-teluyot-iyun-q06.N1",
+     "points": -5,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-teluyot-iyun-q06.N2",
+     "points": -3,
+     "axis": "accuracy",
+     "status": "approved"
+    }
+   ]
+  },
+  "5787-cheshvan-teluyot-iyun-q07": {
+   "subject": "mitzvot-haaretz",
+   "criteria": [
+    {
+     "id": "5787-cheshvan-teluyot-iyun-q07.C1",
+     "points": 5,
+     "axis": "sources",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-teluyot-iyun-q07.C2",
+     "points": 6,
+     "axis": "sources",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-teluyot-iyun-q07.C3",
+     "points": 6,
+     "axis": "sources",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-teluyot-iyun-q07.C4",
+     "points": 6,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-teluyot-iyun-q07.C5",
+     "points": 4,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-teluyot-iyun-q07.C6",
+     "points": 5,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-teluyot-iyun-q07.C7",
+     "points": 4,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-teluyot-iyun-q07.C8",
+     "points": 6,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-teluyot-iyun-q07.C9",
+     "points": 5,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-teluyot-iyun-q07.C10",
+     "points": 3,
+     "axis": "accuracy",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-teluyot-iyun-q07.N1",
+     "points": -5,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-teluyot-iyun-q07.N2",
+     "points": -3,
+     "axis": "ruling",
+     "status": "approved"
+    }
+   ]
+  },
+  "5787-cheshvan-teluyot-iyun-q08": {
+   "subject": "mitzvot-haaretz",
+   "criteria": [
+    {
+     "id": "5787-cheshvan-teluyot-iyun-q08.C1",
+     "points": 5,
+     "axis": "sources",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-teluyot-iyun-q08.C2",
+     "points": 4,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-teluyot-iyun-q08.C3",
+     "points": 4,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-teluyot-iyun-q08.C4",
+     "points": 5,
+     "axis": "sources",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-teluyot-iyun-q08.C5",
+     "points": 4,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-teluyot-iyun-q08.C6",
+     "points": 4,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-teluyot-iyun-q08.C7",
+     "points": 5,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-teluyot-iyun-q08.C8",
+     "points": 3,
+     "axis": "completeness",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-teluyot-iyun-q08.N1",
+     "points": -4,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-teluyot-iyun-q08.N2",
+     "points": -4,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-teluyot-iyun-q08.N3",
+     "points": -3,
+     "axis": "accuracy",
+     "status": "approved"
+    }
+   ]
+  },
+  "5787-cheshvan-teluyot-yishum-q09": {
+   "subject": "mitzvot-haaretz",
+   "criteria": [
+    {
+     "id": "5787-cheshvan-teluyot-yishum-q09.C1",
+     "points": 6,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-teluyot-yishum-q09.C2",
+     "points": 3,
+     "axis": "sources",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-teluyot-yishum-q09.C3",
+     "points": 3,
+     "axis": "completeness",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-teluyot-yishum-q09.C4",
+     "points": 5,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-teluyot-yishum-q09.C5",
+     "points": 4,
+     "axis": "completeness",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-teluyot-yishum-q09.C6",
+     "points": 5,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-teluyot-yishum-q09.C7",
+     "points": 4,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-teluyot-yishum-q09.C8",
+     "points": 3,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-teluyot-yishum-q09.C9",
+     "points": 4,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-teluyot-yishum-q09.N1",
+     "points": -5,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-teluyot-yishum-q09.N2",
+     "points": -4,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-teluyot-yishum-q09.N3",
+     "points": -3,
+     "axis": "accuracy",
+     "status": "approved"
+    }
+   ]
+  },
+  "5787-cheshvan-teluyot-yishum-q10": {
+   "subject": "mitzvot-haaretz",
+   "criteria": [
+    {
+     "id": "5787-cheshvan-teluyot-yishum-q10.C1",
+     "points": 6,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-teluyot-yishum-q10.C2",
+     "points": 4,
+     "axis": "sources",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-teluyot-yishum-q10.C3",
+     "points": 3,
+     "axis": "completeness",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-teluyot-yishum-q10.C4",
+     "points": 6,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-teluyot-yishum-q10.C5",
+     "points": 3,
+     "axis": "sources",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-teluyot-yishum-q10.C6",
+     "points": 5,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-teluyot-yishum-q10.C7",
+     "points": 4,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-teluyot-yishum-q10.N1",
+     "points": -4,
+     "axis": "accuracy",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-teluyot-yishum-q10.N2",
+     "points": -3,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-teluyot-yishum-q10.N3",
+     "points": -2,
+     "axis": "accuracy",
+     "status": "approved"
+    }
+   ]
+  },
+  "5787-cheshvan-teluyot-yishum-q11": {
+   "subject": "mitzvot-haaretz",
+   "criteria": [
+    {
+     "id": "5787-cheshvan-teluyot-yishum-q11.C1",
+     "points": 5,
+     "axis": "sources",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-teluyot-yishum-q11.C2",
+     "points": 4,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-teluyot-yishum-q11.C3",
+     "points": 4,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-teluyot-yishum-q11.C4",
+     "points": 6,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-teluyot-yishum-q11.C5",
+     "points": 4,
+     "axis": "sources",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-teluyot-yishum-q11.C6",
+     "points": 5,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-teluyot-yishum-q11.C7",
+     "points": 3,
+     "axis": "accuracy",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-teluyot-yishum-q11.C8",
+     "points": 3,
+     "axis": "completeness",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-teluyot-yishum-q11.N1",
+     "points": -4,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-teluyot-yishum-q11.N2",
+     "points": -4,
+     "axis": "accuracy",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-teluyot-yishum-q11.N3",
+     "points": -3,
+     "axis": "ruling",
+     "status": "approved"
+    }
+   ]
+  },
+  "5787-cheshvan-teluyot-yishum-q12": {
+   "subject": "mitzvot-haaretz",
+   "criteria": [
+    {
+     "id": "5787-cheshvan-teluyot-yishum-q12.C1",
+     "points": 6,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-teluyot-yishum-q12.C2",
+     "points": 4,
+     "axis": "sources",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-teluyot-yishum-q12.C3",
+     "points": 4,
+     "axis": "accuracy",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-teluyot-yishum-q12.C4",
+     "points": 5,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-teluyot-yishum-q12.C5",
+     "points": 3,
+     "axis": "accuracy",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-teluyot-yishum-q12.C6",
+     "points": 3,
+     "axis": "completeness",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-teluyot-yishum-q12.C7",
+     "points": 5,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-teluyot-yishum-q12.C8",
+     "points": 3,
+     "axis": "sources",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-teluyot-yishum-q12.N1",
+     "points": -5,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-teluyot-yishum-q12.N2",
+     "points": -4,
+     "axis": "ruling",
+     "status": "approved"
+    },
+    {
+     "id": "5787-cheshvan-teluyot-yishum-q12.N3",
+     "points": -3,
+     "axis": "ruling",
+     "status": "approved"
+    }
+   ]
+  }
+ },
+ "global": [
+  {
+   "id": "G1",
+   "points": -8,
+   "axis": "sources",
+   "status": "draft"
+  },
+  {
+   "id": "G2a",
+   "points": -5,
+   "axis": "sources",
+   "status": "draft"
+  },
+  {
+   "id": "G2b",
+   "points": 0,
+   "axis": "sources",
+   "status": "draft"
+  },
+  {
+   "id": "G3",
+   "points": -4,
+   "axis": "calibration",
+   "status": "draft"
+  },
+  {
+   "id": "G4",
+   "points": -4,
+   "axis": "calibration",
+   "status": "draft"
+  },
+  {
+   "id": "G5",
+   "points": -6,
+   "axis": "calibration",
+   "status": "draft"
+  }
+ ]
+}

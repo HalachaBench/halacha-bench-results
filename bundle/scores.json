@@ -1,0 +1,77 @@
+{
+ "method": "mean answer score per split, judge and candidate; approved criteria; v1.analysis.scoring (clipped 0..100); answers scored by rule count as 0",
+ "scores": {
+  "test": {
+   "gpt-6-astra": {
+    "claude-fable-5-1": {
+     "mean": 79.737203,
+     "answers": 180
+    },
+    "claude-haiku-5-5": {
+     "mean": 8.618629,
+     "answers": 180
+    },
+    "claude-opus-5-5": {
+     "mean": 69.054142,
+     "answers": 180
+    },
+    "claude-sonnet-5-5": {
+     "mean": 28.717328,
+     "answers": 180
+    },
+    "dictalm-3.0-24b-thinking": {
+     "mean": 4.29382,
+     "answers": 180
+    },
+    "gemini-3.8-flash": {
+     "mean": 64.370574,
+     "answers": 180
+    },
+    "gemma-4-31b": {
+     "mean": 4.270288,
+     "answers": 180
+    },
+    "gpt-6-astra": {
+     "mean": 73.322426,
+     "answers": 180
+    },
+    "gpt-6-luna": {
+     "mean": 32.37401,
+     "answers": 180
+    },
+    "gpt-6.1-sol": {
+     "mean": 72.755064,
+     "answers": 180
+    },
+    "gpt-6.1-terra": {
+     "mean": 34.59603,
+     "answers": 180
+    },
+    "gpt-oss-120b": {
+     "mean": 4.37595,
+     "answers": 180
+    },
+    "gpt-oss-20b": {
+     "mean": 1.216417,
+     "answers": 180
+    },
+    "ling-3.0-flash": {
+     "mean": 6.13559,
+     "answers": 180
+    },
+    "llama-4-scout-17b-16e": {
+     "mean": 4.162859,
+     "answers": 180
+    },
+    "muse-glimmer-30b": {
+     "mean": 10.488753,
+     "answers": 180
+    },
+    "qwen3.8-27b": {
+     "mean": 6.047137,
+     "answers": 180
+    }
+   }
+  }
+ }
+}
