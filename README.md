@@ -148,7 +148,7 @@ any later change can be detected.
 
 ## Contact
 
-halachabench@gmail.com. Rabbis who would like to review the rubrics or grade answers are welcome to write. If you are
+halachabench@gmail.com. Anyone who would like to review the rubrics or grade answers is welcome to write. If you are
 interested in collaborating on expanding the test (more papers, more models, more rabbinic review), please reach out at
 the same address.
 
@@ -170,7 +170,7 @@ developer; model names are their owners' trademarks.
 המודל Gemini 4 Argon ועוד חמש הרצות שנרשמו מראש עדיין חסרים, ויתווספו. הציונים אינם ציון במבחן הסמיכה, אינם קובעים
 אם מודל "עובר את מבחני הסמיכה", ואין בהם היתר לסמוך על מודל בפסיקת הלכה.
 
-רבנים שמעוניינים לעבור על המחוונים או לבדוק תשובות, וכל מי שמעוניין לשתף פעולה בהרחבת המבחן, מוזמנים לכתוב אל
+כל מי שמעוניין לעבור על המחוונים או לבדוק תשובות, או לשתף פעולה בהרחבת המבחן, מוזמן לכתוב אל
 halachabench@gmail.com. המיזם HalachaBench עצמאי:
 אין לו קשר לרבנות הראשית לישראל, והוא אינו פועל מטעמה או בחסותה.
 
