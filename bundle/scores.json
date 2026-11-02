@@ -11,8 +11,16 @@
      "mean": 8.618629,
      "answers": 180
     },
+    "claude-opus-4-8": {
+     "mean": 48.020494,
+     "answers": 180
+    },
     "claude-opus-5-5": {
      "mean": 69.054142,
+     "answers": 180
+    },
+    "claude-sonnet-4-6": {
+     "mean": 29.630165,
      "answers": 180
     },
     "claude-sonnet-5-5": {
@@ -25,6 +33,10 @@
     },
     "gemini-3.8-flash": {
      "mean": 64.370574,
+     "answers": 180
+    },
+    "gemini-4-argon": {
+     "mean": 78.224588,
      "answers": 180
     },
     "gemma-4-31b": {
@@ -53,6 +65,14 @@
     },
     "gpt-oss-20b": {
      "mean": 1.216417,
+     "answers": 180
+    },
+    "grok-4.3": {
+     "mean": 10.77204,
+     "answers": 180
+    },
+    "grok-4.7": {
+     "mean": 29.86778,
      "answers": 180
     },
     "ling-3.0-flash": {

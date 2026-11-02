@@ -1,24 +1,27 @@
 # HalachaBench v1: early results (provisional)
 
-*1 November 2026* · Hebrew summary: [בעברית, בקצרה](#בעברית-בקצרה)
+*1 November 2026, updated 2 November 2026* · Hebrew summary: [בעברית, בקצרה](#בעברית-בקצרה)
+
+**2 November:** five models added, all scored on the same questions, rubrics and judge: Gemini 4 Argon, Grok 4.7,
+Grok 4.3, Claude Opus 4.8 and Claude Sonnet 4.6. See [Checks on the Grok results](#checks-on-the-grok-results).
 
 HalachaBench tests how well AI models answer real questions from the semicha (rabbinic ordination) exams of the Chief
-Rabbinate of Israel. These early results cover 17 models on the **test set: the 60 questions of five papers of the
+Rabbinate of Israel. These early results cover 22 models on the **test set: the 60 questions of five papers of the
 Cheshvan 5787 sitting** (Niddah, Chuppah v'Kiddushin, Mitzvot HaTeluyot BaAretz, Mikvaot, Tefillah u'Brachot), a
 sitting that began on 12 October 2026. Each model answered every question three times, in Hebrew, closed-book.
 
 > **These results are provisional, and they are not exam grades.** A score of 80 does not mean a model would pass the
 > semicha exam, or that its answers can be relied on to pasken. One AI judge (GPT-6 Astra, itself a contestant) has
 > graded the answers so far. The rubrics were written by an AI model and reviewed by AI models; no rabbi has reviewed
-> them, and no rabbi has graded any answer yet. Six more pre-registered runs are not in this table yet and will be added
-> whatever they score: Gemini 4 Argon (its usage quota ran out), Gemma 4 26B-A4B, Mistral Small 4 119B, Nemotron 3.5
+> them, and no rabbi has graded any answer yet. Seven more registered runs are not in this table yet and will be added
+> whatever they score: GPT-5.6 Sol and GPT-6 Sol (running now), Gemma 4 26B-A4B, Mistral Small 4 119B, Nemotron 3.5
 > Lightning 30B, Nemotron 3.5 Super VL 120B, and a second, disclosed Qwen3.8 27B run with a larger output limit, added
 > after the first run's results were seen. Four other pre-registered open-weight models (Granite 4.2 30B, Hermes 4.3
 > 36B, Nanbeige4.3 33B, Olmo 3.1 32B Think) were dropped before answering any question: three did not fit the GPU at the
 > registered context, and the runtime could not separate Olmo's reasoning from its answer. Claude Opus 5.5 will grade
 > as a second judge. Read the caveats below before quoting a number.
 
-![HalachaBench early results: bar chart of the 17 models' scores with 95% intervals](results.png)
+![HalachaBench early results: bar chart of the 22 models' scores with 95% intervals](results.png)
 
 ## Results
 
@@ -28,30 +31,47 @@ attempts. Worst of 3: the lowest of the three attempts at each question, average
 | # | Model | Score | 95% interval | Worst of 3 | How it ran |
 |---|---|---|---|---|---|
 | 1 | Claude Fable 5.1 | 79.7 | 75.8 – 83.4 | 70.4 | Claude Code CLI, effort high |
-| 2 | GPT-6 Astra | 73.3 | 69.4 – 77.0 | 66.2 | Codex, effort high |
-| 3 | GPT-6.1 Sol | 72.8 | 69.1 – 76.2 | 63.9 | Codex, effort high |
-| 4 | Claude Opus 5.5 | 69.1 | 64.7 – 73.3 | 60.0 | Claude Code CLI, effort high |
-| 5 | Gemini 3.8 Flash | 64.4 | 59.7 – 68.9 | 54.3 | Antigravity CLI, effort high |
-| 6 | GPT-6.1 Terra | 34.6 | 30.8 – 38.5 | 25.6 | Codex, effort high |
-| 7 | GPT-6 Luna | 32.4 | 28.5 – 36.4 | 21.8 | Codex, effort high |
-| 8 | Claude Sonnet 5.5 | 28.7 | 24.2 – 33.3 | 18.3 | Claude Code CLI, effort high |
-| 9 | Muse Glimmer 30B | 10.5 | 7.6 – 13.7 | 4.4 | local, llama.cpp, Q4_K_M |
-| 10 | Claude Haiku 5.5 | 8.6 | 6.0 – 11.5 | 3.6 | Claude Code CLI, effort high |
-| 11 | Ling 3.0 Flash | 6.1 | 4.4 – 8.0 | 0.9 | local, llama.cpp, Q4_K_M |
-| 12 | Qwen3.8 27B | 6.0 | 4.1 – 8.2 | 1.6 | local, llama.cpp, UD-Q4_K_M ¹ |
-| 13 | gpt-oss-120b | 4.4 | 2.6 – 6.4 | 2.1 | local, llama.cpp, MXFP4 |
-| 14 | DictaLM 3.0 24B Thinking | 4.3 | 2.8 – 6.0 | 0.8 | local, llama.cpp, Q4_K_M ¹ |
-| 15 | Gemma 4 31B | 4.3 | 2.5 – 6.4 | 2.0 | local, llama.cpp, Q4_K_M |
-| 16 | Llama 4 Scout 17B-16E | 4.2 | 2.6 – 6.0 | 1.4 | local, llama.cpp, Q4_K_M ² |
-| 17 | gpt-oss-20b | 1.2 | 0.5 – 2.1 | 0.0 | local, llama.cpp, MXFP4 |
+| 2 | Gemini 4 Argon † | 78.2 | 74.3 – 81.9 | 70.7 | Antigravity CLI, effort high ³ |
+| 3 | GPT-6 Astra | 73.3 | 69.4 – 77.0 | 66.2 | Codex, effort high |
+| 4 | GPT-6.1 Sol | 72.8 | 69.1 – 76.2 | 63.9 | Codex, effort high |
+| 5 | Claude Opus 5.5 | 69.1 | 64.7 – 73.3 | 60.0 | Claude Code CLI, effort high |
+| 6 | Gemini 3.8 Flash | 64.4 | 59.7 – 68.9 | 54.3 | Antigravity CLI, effort high |
+| 7 | Claude Opus 4.8 † | 48.0 | 43.3 – 52.7 | 36.3 | Claude Code CLI, effort high |
+| 8 | GPT-6.1 Terra | 34.6 | 30.8 – 38.5 | 25.6 | Codex, effort high |
+| 9 | GPT-6 Luna | 32.4 | 28.5 – 36.4 | 21.8 | Codex, effort high |
+| 10 | Grok 4.7 † | 29.9 | 26.3 – 33.6 | 16.4 | xAI API, effort high ⁴ |
+| 11 | Claude Sonnet 4.6 † | 29.6 | 25.4 – 33.9 | 19.9 | Claude Code CLI, effort high |
+| 12 | Claude Sonnet 5.5 | 28.7 | 24.2 – 33.3 | 18.3 | Claude Code CLI, effort high |
+| 13 | Grok 4.3 † | 10.8 | 8.1 – 13.6 | 4.8 | xAI API, effort high ⁴ |
+| 14 | Muse Glimmer 30B | 10.5 | 7.6 – 13.7 | 4.4 | local, llama.cpp, Q4_K_M |
+| 15 | Claude Haiku 5.5 | 8.6 | 6.0 – 11.5 | 3.6 | Claude Code CLI, effort high |
+| 16 | Ling 3.0 Flash | 6.1 | 4.4 – 8.0 | 0.9 | local, llama.cpp, Q4_K_M |
+| 17 | Qwen3.8 27B | 6.0 | 4.1 – 8.2 | 1.6 | local, llama.cpp, UD-Q4_K_M ¹ |
+| 18 | gpt-oss-120b | 4.4 | 2.6 – 6.4 | 2.1 | local, llama.cpp, MXFP4 |
+| 19 | DictaLM 3.0 24B Thinking | 4.3 | 2.8 – 6.0 | 0.8 | local, llama.cpp, Q4_K_M ¹ |
+| 20 | Gemma 4 31B | 4.3 | 2.5 – 6.4 | 2.0 | local, llama.cpp, Q4_K_M |
+| 21 | Llama 4 Scout 17B-16E | 4.2 | 2.6 – 6.0 | 1.4 | local, llama.cpp, Q4_K_M ² |
+| 22 | gpt-oss-20b | 1.2 | 0.5 – 2.1 | 0.0 | local, llama.cpp, MXFP4 |
+
+† Added on 2 November 2026, after the first results were published, each by a recorded amendment to the
+pre-registration made before its answers were collected. Claude Opus 4.8 and Claude Sonnet 4.6 are earlier generations,
+added to see how the scores change across model versions.
 
 95% intervals come from a bootstrap over questions (resampled within each paper, a question's three attempts kept
 together; 10,000 replicates). They cover only the choice of questions, not judge or rubric error, which is likely
-larger here. Overlapping intervals do not by themselves mean two models are tied: compared question by question, Claude
-Fable 5.1 is clearly ahead of every other model (by 6.4 points over GPT-6 Astra, 95% interval 1.6 to 11.1), and gpt-oss-20b
-is clearly below every other model. Not clearly apart: GPT-6 Astra, GPT-6.1 Sol and Claude Opus 5.5; GPT-6 Luna with
-GPT-6.1 Terra or Claude Sonnet 5.5; Claude Haiku 5.5 with Muse Glimmer 30B or Qwen3.8 27B; and most pairs among ranks
-11 to 16.
+larger here. Overlapping intervals do not by themselves mean two models are tied, so models were also compared question
+by question:
+- **Not clearly apart:** Claude Fable 5.1 and Gemini 4 Argon (Fable ahead by 1.5 points, 95% interval −1.8 to 4.9);
+  Gemini 4 Argon and GPT-6 Astra (4.9, −0.3 to 10.0); GPT-6 Astra, GPT-6.1 Sol and Claude Opus 5.5; GPT-6 Luna, Grok
+  4.7, Claude Sonnet 4.6 and Claude Sonnet 5.5; GPT-6.1 Terra and GPT-6 Luna; Grok 4.3, Muse Glimmer 30B and Claude
+  Haiku 5.5, and Claude Haiku 5.5 with Qwen3.8 27B; most pairs among ranks 16 to 21.
+- **Clearly apart:** Claude Fable 5.1 is ahead of every model except Gemini 4 Argon (by 6.4 points over GPT-6 Astra,
+  1.6 to 11.1); Gemini 4 Argon is ahead of GPT-6.1 Sol (5.5, 0.8 to 10.2) and every model below it; GPT-6.1 Terra is
+  ahead of Grok 4.7 (4.7, 0.5 to 9.1), Claude Sonnet 4.6 (5.0, 0.1 to 10.0) and Claude Sonnet 5.5 (5.9, 0.8 to 10.9);
+  Claude Opus 4.8 is apart from every
+  other model; gpt-oss-20b is below every other model.
+- **Across generations:** Claude Opus 5.5 is 21.0 points above Claude Opus 4.8 (17.4 to 24.9); Claude Sonnet 5.5 and
+  Claude Sonnet 4.6 are not clearly apart (0.9, −3.0 to 4.9).
 
 ¹ Some runs produced no answer text. The model used up the output limit we set while still thinking (DictaLM 9 of 180
 and Qwen3.8 27B 9 of 180; the limits were 57,088 and 65,536 tokens, the latter below what Qwen's model card allows), or
@@ -61,9 +81,61 @@ still without an answer score 0, as every failed answer does.
 ² Llama 4 Scout failed one pre-run check: asked whether it had any tools, it claimed a web-search tool it did not have. It
 ran in a sealed container with no network and no tools, so it was kept, and the failure is disclosed here.
 
+³ Gemini 4 Argon's run stopped when the account's usage quota ran out, and finished on purchased Google AI credits (a
+recorded amendment; the credits change billing only). During the run, a manual check of the Antigravity program
+triggered its auto-update, so 84 of Argon's 180 answers (on 28 questions) ran on version 1.4.12 instead of the
+registered 1.4.10. On those 28 questions, Argon's gap to the four models nearest it is within 2.6 points of its gap on
+the other 32 (permutation p 0.57 to 0.82), so the version made no visible difference. The answers were kept and are
+disclosed here.
+
+⁴ Grok 4.7 and Grok 4.3 ran through xAI's Responses API: no tools in the request, responses not stored, reasoning
+effort high, xAI's recommended sampling (temperature 0.7, top_p 0.95). Every response was checked: none used a tool or
+a source, and none was cut off. See [Checks on the Grok results](#checks-on-the-grok-results).
+
 The local models ran at 4-bit quantization on the maintainer's own hardware. gpt-oss runs in MXFP4, the precision its
-weights were released in; the other local models may lose some points against full-precision versions. All 17 models
+weights were released in; the other local models may lose some points against full-precision versions. All 22 models
 had every one of their 180 test answers scored.
+
+## Checks on the Grok results
+
+Grok 4.7 scores well below the leaders, so its result was checked more than the others. In short: its answers are
+short, and the low score holds up when the grading or the rubrics are changed.
+
+- **Its answers were complete.** All 180 Grok 4.7 answers finished normally, in Hebrew, with no output limit set and
+  none cut off; reasoning effort was high on every one. One request failed with a server error and was run again.
+- **It writes short answers.** Grok 4.7 thought at length (a median of about 18,000 reasoning tokens per answer) but
+  wrote a median of 213 words, against 368 for Claude Sonnet 4.6 and 664 for Gemini 4 Argon. The rubrics give points
+  for each source, step and ruling an answer gives, so a short answer that is right on the bottom line still scores low.
+- **A blind second grader agreed with the judge.** Claude Opus 5.5, without knowing which model wrote which answer,
+  re-graded 30 answers: 15 by Grok 4.7 and 15 by Claude Sonnet 5.5 to the same questions. It agreed with GPT-6 Astra on
+  287 of 326 criterion decisions (88%), equally for both models. Grok 4.7's mean was 34.1 from Astra and 32.6 from the
+  second grader, so Astra was not harder on Grok.
+- **The rubrics Grok disputed don't explain its score.** After the results, Grok 4.7 reviewed all 60 sealed rubrics
+  and asked to change or remove 405 of their 661 criteria. Scored again with those criteria taken out, Grok 4.7's
+  score goes down, not up, and every model's place barely changes:
+
+  | Scored on | Grok 4.7 | Rank | Gemini 4 Argon | Rank |
+  |---|---|---|---|---|
+  | All criteria (the results above) | 29.9 | 10 | 78.2 | 2 |
+  | Without the 274 criteria Grok said cite a wrong source or should go (59 questions) | 28.5 | 10 | 76.8 | 2 |
+  | Only the 256 criteria Grok accepted as written (53 questions) | 26.0 | 12 | 75.3 | 2 |
+
+  Questions left with no criterion to score drop out of that row, for every model alike.
+- **Most of Grok's critique did not hold up, and the errors it did find don't move the scores.** Each point Grok made
+  that would change a grade was checked against the sources on Sefaria (the Shulchan Aruch, Rambam, Mishnah, Gemara
+  and their commentaries). 24 were confirmed as real rubric errors, in 29 criteria; 11 were refuted by the sources,
+  and the rest changed only wording or citations. Most confirmed errors are an "also accept" that was too generous,
+  for example crediting a lenient ruling no source supports. A few gave points for something the question did not
+  ask. Scored without those 29 criteria, Grok 4.7 stays at 29.9, and no model moves by more than 0.7 points.
+- **Grok as the judge gives the same result.** Grok 4.7 graded the first attempt at each question by Grok 4.7,
+  Claude Sonnet 5.5 and GPT-6 Luna, with the same sealed rubrics and the same instructions GPT-6 Astra had. On the 56
+  questions graded for all three, it agreed with Astra on 92% of 1,937 criterion decisions, and its scores were Grok
+  4.7 29.7, Claude Sonnet 5.5 30.3 and GPT-6 Luna 28.6 (Astra: 30.5, 30.3 and 31.8). Grok did not score its own
+  answers higher than Astra did, relative to the others (+0.8 points, 95% interval −2.9 to 4.3). Four of its 180
+  gradings failed on server errors and are left out.
+
+None of this changes the scores above: the rubrics stay as sealed. Any rubric error found is listed and corrected for
+every model at once, in the next version.
 
 ## How it works
 
@@ -74,12 +146,14 @@ had every one of their 180 test answers scored.
 - **Answering.** Each answer was written in a fresh process with nothing from the project but the question, the exam
   rules (answer in Hebrew, cite sources, at most 600 words; the limit is an instruction and longer answers were not cut)
   and a fixed instruction to answer closed-book. No web search. The Claude models ran with every tool switched off; 6 of
-  their 726 runs still tried to call a tool and were stopped and run again. The GPT and Gemini programs cannot switch
+  their 1,086 runs still tried to call a tool and were stopped and run again. The GPT and Gemini programs cannot switch
   all their tools off, so tool use was forbidden and every run was monitored live; none of their test runs used a tool.
   A run that tried to use a tool, or ended without an answer, was run once more, and a second failure scores 0. The
-  local models ran in sealed containers with no network and no tools. The prompts were not identical across programs:
-  the Claude models saw only a short neutral system prompt, the GPT models also saw Codex's built-in instructions and an
-  added instruction not to use tools, and the Gemini models saw Antigravity's built-in instructions.
+  local models ran in sealed containers with no network and no tools. The Grok models ran through xAI's API with no
+  tools in the request, and every response was checked for tool or source use (none had any). The prompts were not
+  identical across programs: the Claude and Grok models saw only a short neutral system prompt, the GPT models also saw
+  Codex's built-in instructions and an added instruction not to use tools, and the Gemini models saw Antigravity's
+  built-in instructions.
 - **Rubrics.** There is no official answer key. Each of the 60 rubrics was drafted by Claude Fable 5.1 as a rabbi would
   write one (sources, Rishonim, ruling, other accepted views, common errors), with 9–12 criteria per question: 7–11
   requirements worth points and 1–3 errors that cost points. A second Claude Fable 5.1 pass critiqued each draft and it
@@ -92,7 +166,7 @@ had every one of their 180 test answers scored.
   repository, and the salts that open them will be published when the review round closes), after the Claude and GPT
   models had answered and before any test answer was graded.
 - **Grading.** GPT-6 Astra (effort high) decided, for every criterion of every answer that had text, whether the answer
-  meets it, under one fixed judge protocol. 5% of the answers (153) were graded twice to check consistency; that result
+  meets it, under one fixed judge protocol. 5% of the answers (199) were graded twice to check consistency; that result
   will be reported with the second judge.
 - **Pre-registration.** The questions, exam rules and model list were recorded locally by hash before each model's
   answers were collected; the sealed rubrics, the judge protocol and the analysis code before any test answer was
@@ -116,8 +190,11 @@ or disqualified answer scores 0.
   this matters.
 - **The rubric writer is also a contestant.** Claude Fable 5.1 drafted every rubric, made every revision, decided which
   single-reviewer suggestions to accept, and also scored highest; Claude Opus 5.5, another contestant, checked the
-  rubrics' sources. A rubric written by a model may favour that model's way of answering. GPT-6 Astra, another rubric
-  reviewer, is a contestant too, and Gemini 4 Argon will be once its answers are graded.
+  rubrics' sources. A rubric written by a model may favour that model's way of answering. The other two rubric
+  reviewers, GPT-6 Astra and Gemini 4 Argon, are contestants too, and placed second and third.
+- **Some models were added later.** Gemini 4 Argon, both Grok models, Claude Opus 4.8 and Claude Sonnet 4.6 were added
+  after the first results were published. Each was recorded as an amendment before its answers were collected, and was
+  run on the same questions and graded with the same sealed rubrics and judge.
 - **Not contamination-free.** Rabbinate questions often recur from earlier sittings, whose papers (and some unofficial
   answers) are online, and these 60 have not yet been checked for repeats. A model may have seen a close version of a
   question in training.
@@ -137,7 +214,7 @@ or disqualified answer scores 0.
 | `commitments.json`, `seal-log.jsonl` | The salted commitments to all 96 sealed rubrics, and the hash-chained log that sealed them on 29 October 2026. |
 | `prereg.json` | The SHA-256 of each pre-registration record. |
 | `scores.json` | The judge's mean score per model. |
-| `withheld.json` | The SHA-256 of the per-answer files: each answer's salted commitment, every verdict, and the 153 repeat gradings. |
+| `withheld.json` | The SHA-256 of the per-answer files: each answer's salted commitment, every verdict, and the 199 repeat gradings. |
 | `MANIFEST.json` | The SHA-256 of every file. |
 | `.gitattributes` | Keeps every file byte-exact on checkout, so the hashes match. |
 
@@ -160,14 +237,15 @@ developer; model names are their owners' trademarks.
 ## בעברית, בקצרה
 
 מבחן HalachaBench בודק עד כמה מודלים של בינה מלאכותית (AI) יודעים לענות על שאלות אמיתיות ממבחני ההסמכה של הרבנות
-הראשית לישראל. אלה תוצאות ראשונות של 17 מודלים על 60 השאלות של חמישה שאלונים ממועד חשוון תשפ"ז. כל מודל ענה על כל
+הראשית לישראל. אלה תוצאות ראשונות של 22 מודלים על 60 השאלות של חמישה שאלונים ממועד חשוון תשפ"ז. כל מודל ענה על כל
 שאלה שלוש פעמים, בעברית, בלי ספרים ובלי אינטרנט.
 
 **התוצאות זמניות, והן אינן ציוני מבחן.** עד כה בדק את התשובות רק שופט ממוחשב אחד, GPT-6 Astra, שהוא גם אחד המודלים
 הנבחנים. המחוונים נכתבו בידי Claude Fable 5.1, שקיבל את הציון הגבוה ביותר, ונבדקו בידי מודלי AI; אף רב עדיין לא עבר
 עליהם, ואף רב עדיין לא בדק תשובה. שאלות רבות במבחני הרבנות חוזרות ממועדים קודמים, ועוד לא נבדק אילו מהשאלות כאן חוזרות, ולכן ייתכן שהמודלים ראו
 שאלות דומות.
-המודל Gemini 4 Argon ועוד חמש הרצות שנרשמו מראש עדיין חסרים, ויתווספו. הציונים אינם ציון במבחן הסמיכה, אינם קובעים
+ב־2 בנובמבר נוספו חמישה מודלים: Gemini 4 Argon,‏ Grok 4.7,‏ Grok 4.3,‏ Claude Opus 4.8 ו־Claude Sonnet 4.6. עוד שבע
+הרצות רשומות עדיין חסרות, ויתווספו. הציונים אינם ציון במבחן הסמיכה, אינם קובעים
 אם מודל "עובר את מבחני הסמיכה", ואין בהם היתר לסמוך על מודל בפסיקת הלכה.
 
 כל מי שמעוניין לעבור על המחוונים או לבדוק תשובות, או לשתף פעולה בהרחבת המבחן, מוזמן לכתוב אל
