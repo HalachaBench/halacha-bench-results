@@ -43,12 +43,20 @@
      "mean": 4.270288,
      "answers": 180
     },
+    "gpt-5.6-sol": {
+     "mean": 77.271444,
+     "answers": 180
+    },
     "gpt-6-astra": {
      "mean": 73.322426,
      "answers": 180
     },
     "gpt-6-luna": {
      "mean": 32.37401,
+     "answers": 180
+    },
+    "gpt-6-sol": {
+     "mean": 48.668619,
      "answers": 180
     },
     "gpt-6.1-sol": {
