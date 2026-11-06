@@ -95,6 +95,18 @@
      "mean": 10.488753,
      "answers": 180
     },
+    "muse-spark-1.3": {
+     "mean": 36.231407,
+     "answers": 180
+    },
+    "muse-wonder": {
+     "mean": 48.225911,
+     "answers": 180
+    },
+    "muse-wonder-full": {
+     "mean": 60.774805,
+     "answers": 180
+    },
     "qwen3.8-27b": {
      "mean": 6.047137,
      "answers": 180

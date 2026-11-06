@@ -1,14 +1,14 @@
 {
  "format": "halachabench-public-results-v1",
  "stage": "interim",
- "createdAt": "2026-11-03T11:00:40.682614+00:00",
+ "createdAt": "2026-11-06T02:48:01.436368+00:00",
  "files": {
   ".gitattributes": "705fd4d6451a31d36b3df7de96f83f30ac976c9b4a6d1e51671d8e2f33e2d0da",
   "commitments.json": "f574a94eaad9561d631e3efa3a342d05e9ba4bfab9d43787f17a386ca8cdff19",
   "criteria.json": "9ac0f46f313a447dff8e24670581b1b4aeff218c706a347c782d17aecffc7f67",
-  "prereg.json": "a988a69ce0009d5165326acf62c2f571794dc23e2aa97e7af2c92322a32d1069",
-  "scores.json": "697c2833d4fa7617df92cf6e98ed690dba89710e4f8261e291da060337b14fd4",
+  "prereg.json": "ad56172ac897b82455d72e8b6aeaeb5563bb403e5f7d1757468af3f9546b857b",
+  "scores.json": "b8e45ce05dc51b6e25266b04dca6d4fc1dd6dbedb08a43e0b2178a43027ea7e2",
   "seal-log.jsonl": "6bddcc03fdfbc8bf041bdbac2372dc27981f83297578f637263e05b7b3f1cff4",
-  "withheld.json": "a2d86a1522d0867c9126ec6790e6186d400df984105b14315a280bb2864464bc"
+  "withheld.json": "ecabb15f69f57297b522dc15c08f0f33a5bda7bbe252529876445a3a0bb00e3f"
  }
 }
