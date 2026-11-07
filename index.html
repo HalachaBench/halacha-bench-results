@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
+<html lang="he" dir="rtl">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>HalachaBench: can AI pass the semicha exam?</title>
+<title>HalachaBench: האם AI יכול לעבור את מבחני ההסמכה?</title>
 <meta name="description" content="HalachaBench tests 27 AI models on real semicha exam papers of the Chief Rabbinate of Israel. Provisional, AI-graded results - what's in the repo and what to read before quoting any number.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -105,13 +105,13 @@
 <body>
 
 <!-- ============ ENGLISH ============ -->
-<div id="c-en" class="language-deck" lang="en">
+<div id="c-en" class="language-deck" lang="en" hidden>
   <header class="topbar">
     <div class="topbar-in">
       <a class="wordmark" href="https://github.com/HalachaBench/halacha-bench-results">HalachaBench</a>
       <nav class="links">
         <a href="https://github.com/HalachaBench/halacha-bench-results">Repository</a>
-        <a class="langswitch" href="?lang=he" hreflang="he">עב</a>
+        <a class="langswitch" href="#lang=he" hreflang="he" lang="he">עברית</a>
       </nav>
     </div>
   </header>
@@ -237,13 +237,13 @@
 </div>
 
 <!-- ============ HEBREW ============ -->
-<div id="c-he" class="language-deck" lang="he" dir="rtl" hidden>
+<div id="c-he" class="language-deck" lang="he" dir="rtl">
   <header class="topbar">
     <div class="topbar-in">
       <a class="wordmark" href="https://github.com/HalachaBench/halacha-bench-results">HalachaBench</a>
       <nav class="links">
         <a href="https://github.com/HalachaBench/halacha-bench-results">המאגר</a>
-        <a class="langswitch" href="?lang=en" hreflang="en">EN</a>
+        <a class="langswitch" href="#lang=en" hreflang="en" lang="en">English</a>
       </nav>
     </div>
   </header>
@@ -370,24 +370,64 @@
 
 <script>
 (function () {
-  var q = null;
-  try { q = new URLSearchParams(window.location.search).get('lang'); } catch (e) {}
-  var langs = navigator.languages || [navigator.language || 'en'];
-  var he;
-  if (q) {
-    he = /^(he|iw)/i.test(q);
-  } else {
-    he = langs.some(function (l) { return /^(he|iw)/i.test(l); });
+  // Language precedence: explicit #lang > supported ?lang (including an
+  // HTMLPreview source URL) > primary English browser locale > Hebrew.
+  // Only en/he language families and the legacy Hebrew iw alias are supported.
+  // See docs/pages-language.md for direct and preview URLs and regression checks.
+  function supportedLanguage(value) {
+    var locale = String(value || '').trim().replace(/_/g, '-').toLowerCase();
+    if (/^en(?:-[a-z0-9]+)*$/.test(locale)) return 'en';
+    if (/^(he|iw)(?:-[a-z0-9]+)*$/.test(locale)) return 'he';
+    return null;
   }
-  var lang = he ? 'he' : 'en';
-  var other = he ? 'en' : 'he';
-  document.documentElement.lang = lang;
-  document.documentElement.dir = he ? 'rtl' : 'ltr';
-  document.getElementById('c-' + lang).hidden = false;
-  document.getElementById('c-' + other).hidden = true;
-  document.title = he
-    ? 'HalachaBench: האם AI יכול לעבור את מבחני ההסמכה?'
-    : 'HalachaBench: can AI pass the semicha exam?';
+
+  function requestedLanguage() {
+    var explicit = supportedLanguage(new URLSearchParams(window.location.hash.slice(1)).get('lang'));
+    if (explicit) return explicit;
+    var search = window.location.search;
+    // HTMLPreview's entire query is the source URL, not the page's parameters.
+    // Its injected <base> also makes relative language links unsafe to follow.
+    if (window.location.hostname === 'htmlpreview.github.io') {
+      try {
+        var sourceUrl = search.slice(1);
+        try {
+          search = new URL(sourceUrl).search;
+        } catch (e) {
+          search = new URL(decodeURIComponent(sourceUrl)).search;
+        }
+      } catch (e) {
+        search = '';
+      }
+    }
+    explicit = supportedLanguage(new URLSearchParams(search).get('lang'));
+    if (explicit) return explicit;
+    var primaryLocale = navigator.languages && navigator.languages.length
+      ? navigator.languages[0] : navigator.language;
+    return supportedLanguage(primaryLocale) === 'en' ? 'en' : 'he';
+  }
+
+  function languageHref(language) {
+    var url = new URL(window.location.href);
+    url.hash = 'lang=' + language;
+    return url.href;
+  }
+
+  function applyLanguage(language) {
+    var previousRoot = document.getElementById('c-' + document.documentElement.lang);
+    var screen = previousRoot && previousRoot.getScreen ? previousRoot.getScreen() : 0;
+    var he = language === 'he';
+    document.documentElement.lang = language;
+    document.documentElement.dir = he ? 'rtl' : 'ltr';
+    document.getElementById('c-he').hidden = !he;
+    document.getElementById('c-en').hidden = he;
+    document.title = he
+      ? 'HalachaBench: האם AI יכול לעבור את מבחני ההסמכה?'
+      : 'HalachaBench: can AI pass the semicha exam?';
+    document.getElementById('c-' + language).goToScreen(screen);
+    document.querySelectorAll('.langswitch').forEach(function (link) {
+      link.setAttribute('href', languageHref(link.getAttribute('hreflang')));
+    });
+  }
 
   // deck navigation, per language container
   ['en', 'he'].forEach(function (code) {
@@ -398,7 +438,7 @@
     screens.forEach(function (s, i) {
       var d = document.createElement('button');
       d.type = 'button';
-      d.setAttribute('aria-label', 'screen ' + (i + 1));
+      d.setAttribute('aria-label', (code === 'he' ? 'מסך ' : 'screen ') + (i + 1));
       d.addEventListener('click', function () { go(i); });
       dotsBox.appendChild(d);
     });
@@ -423,6 +463,20 @@
     root.goToScreen = go;
     root.getScreen = function () { return cur; };
   });
+  document.querySelectorAll('.langswitch').forEach(function (link) {
+    link.addEventListener('click', function (event) {
+      event.preventDefault();
+      var language = supportedLanguage(link.getAttribute('hreflang'));
+      applyLanguage(language);
+      // Updating only the outer hash preserves HTMLPreview's opaque source URL.
+      // It also gives browser Back/Forward and reload a stable explicit choice.
+      window.location.hash = 'lang=' + language;
+    });
+  });
+  window.addEventListener('hashchange', function () {
+    applyLanguage(requestedLanguage());
+  });
+  applyLanguage(requestedLanguage());
 })();
 </script>
 </body>
