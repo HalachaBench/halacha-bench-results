@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>HalachaBench - what is in this repository</title>
+<style>
+  :root { --ink:#1c2333; --muted:#5a6478; --line:#e3e7ee; --accent:#0b5fff; --bg:#ffffff; --soft:#f6f8fb; }
+  * { box-sizing:border-box; }
+  body { margin:0; font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif; color:var(--ink); background:var(--bg); line-height:1.55; }
+  .wrap { max-width:720px; margin:0 auto; padding:24px 18px 64px; }
+  h1 { font-size:1.6rem; line-height:1.25; margin:0 0 6px; }
+  h2 { font-size:1.15rem; margin:34px 0 10px; padding-top:18px; border-top:1px solid var(--line); }
+  p { margin:10px 0; }
+  .sub { color:var(--muted); font-size:.95rem; margin-top:0; }
+  a { color:var(--accent); }
+  .banner { background:var(--soft); border:1px solid var(--line); border-radius:10px; padding:12px 14px; font-size:.92rem; margin:18px 0 0; }
+  table { width:100%; border-collapse:collapse; font-size:.92rem; margin:12px 0; }
+  th, td { text-align:left; padding:8px 10px; border-bottom:1px solid var(--line); vertical-align:top; }
+  th { color:var(--muted); font-weight:600; font-size:.85rem; }
+  td.num, th.num { text-align:right; font-variant-numeric:tabular-nums; }
+  code { background:var(--soft); border-radius:5px; padding:1px 5px; font-size:.88em; }
+  ul { padding-left:20px; }
+  li { margin:6px 0; }
+  img.chart { width:100%; height:auto; border:1px solid var(--line); border-radius:10px; margin:10px 0; }
+  .rtl { direction:rtl; text-align:right; }
+  footer { margin-top:40px; padding-top:16px; border-top:1px solid var(--line); color:var(--muted); font-size:.85rem; }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <h1>HalachaBench: what is in this repository</h1>
+  <p class="sub">A plain-English map of <a href="https://github.com/HalachaBench/halacha-bench-results">HalachaBench/halacha-bench-results</a>, the results repository of the HalachaBench project.</p>
+
+  <div class="banner">
+    <strong>Read this first:</strong> every number here is <strong>provisional</strong>. One AI model (itself a contestant) has graded the answers; no rabbi has reviewed the rubrics or graded any answer yet. These scores are not exam grades, do not say whether a model "passes semicha", and are not authority to pasken.
+  </div>
+
+  <h2>What HalachaBench is</h2>
+  <p>HalachaBench is an independent project that tests how well AI models answer real questions from the semicha (rabbinic ordination) exams of the Chief Rabbinate of Israel. It is not connected to, or endorsed by, the Chief Rabbinate or by any model developer.</p>
+  <p>The v1 results published here cover <strong>27 models</strong> on the test set: the <strong>60 questions of five papers from the Cheshvan 5787 sitting</strong> (Niddah, Chuppah v'Kiddushin, Mitzvot HaTeluyot BaAretz, Mikvaot, Tefillah u'Brachot). Each model answered every question three times, in Hebrew, closed-book, and one judge (GPT-6 Astra) graded every answer against sealed rubrics.</p>
+
+  <h2>Headline results (provisional)</h2>
+  <img class="chart" src="results.png" alt="Bar chart of the 27 models' HalachaBench scores with 95% intervals">
+  <table>
+    <tr><th>#</th><th>Model</th><th class="num">Score</th></tr>
+    <tr><td>1</td><td>Claude Fable 5.1</td><td class="num">79.7</td></tr>
+    <tr><td>2</td><td>Gemini 4 Argon</td><td class="num">78.2</td></tr>
+    <tr><td>3</td><td>GPT-5.6 Sol</td><td class="num">77.3</td></tr>
+    <tr><td>4</td><td>GPT-6 Astra</td><td class="num">73.3</td></tr>
+    <tr><td>5</td><td>GPT-6.1 Sol</td><td class="num">72.8</td></tr>
+    <tr><td>6</td><td>Claude Opus 5.5</td><td class="num">69.1</td></tr>
+    <tr><td>7</td><td>Gemini 3.8 Flash</td><td class="num">64.4</td></tr>
+    <tr><td>8</td><td>Muse Wonder Full</td><td class="num">60.8</td></tr>
+  </table>
+  <p>The top three are not clearly apart from one another on a question-by-question comparison. The full table of all 27 models, with 95% intervals and per-pair comparisons, is in the <a href="https://github.com/HalachaBench/halacha-bench-results#results">README</a>.</p>
+
+  <h2>What is in the repository</h2>
+  <table>
+    <tr><th>Path</th><th>What it is</th></tr>
+    <tr><td><code>README.md</code></td><td>The main document: full results table for all 27 models, the methodology (questions, answering conditions, rubrics, grading, pre-registration), detailed checks on the Grok results, caveats, and a Hebrew summary.</td></tr>
+    <tr><td><code>results.png</code></td><td>Bar chart of the 27 models' scores with 95% intervals (shown above).</td></tr>
+    <tr><td><code>bundle/criteria.json</code></td><td>Every rubric criterion's id, points, axis and status for all 96 sealed questions (60 test + 36 development), without criterion text.</td></tr>
+    <tr><td><code>bundle/commitments.json</code>, <code>bundle/seal-log.jsonl</code></td><td>Salted cryptographic commitments to all 96 sealed rubrics and the hash-chained log that sealed them on 29 October 2026, before any test answer was graded.</td></tr>
+    <tr><td><code>bundle/prereg.json</code></td><td>SHA-256 of each pre-registration record (questions, exam rules, model list, judge protocol, analysis code).</td></tr>
+    <tr><td><code>bundle/scores.json</code></td><td>The judge's mean score per model.</td></tr>
+    <tr><td><code>bundle/withheld.json</code></td><td>SHA-256 of the per-answer files (each answer's commitment, every verdict, the 244 repeat gradings), withheld until the rabbi review round closes so blind grading stays blind.</td></tr>
+    <tr><td><code>bundle/MANIFEST.json</code></td><td>SHA-256 of every file, so any later change to the published data can be detected.</td></tr>
+  </table>
+  <p>Note what is <strong>not</strong> here: the exam questions themselves (the Chief Rabbinate's own, published on gov.il), the rubric texts and answers (committed to by hash, to be published after the review round), and the runner/analysis code. Until the code, salts and withheld files are published, the bundle fixes the data against later change but cannot be used to recompute a score.</p>
+
+  <h2>Caveats the authors themselves list</h2>
+  <ul>
+    <li>The judge, GPT-6 Astra, is also a contestant; the rubric writer, Claude Fable 5.1, placed first. A second judge (Claude Opus 5.5) and rabbi grading are planned.</li>
+    <li>Some models were added after the first publication, each by a recorded pre-registration amendment.</li>
+    <li>Not contamination-free: Rabbinate questions often recur and these 60 have not yet been checked for repeats.</li>
+    <li>Five more pre-registered runs are still to be added, whatever they score.</li>
+  </ul>
+
+  <h2 class="rtl">בעברית, בקצרה</h2>
+  <div class="rtl">
+    <p>HalachaBench הוא מיזם עצמאי שבודק עד כמה מודלים של בינה מלאכותית יודעים לענות על שאלות אמיתיות ממבחני ההסמכה של הרבנות הראשית לישראל. התוצאות כאן מכסות 27 מודלים על 60 שאלות מחמישה שאלונים ממועד חשוון תשפ"ז; כל מודל ענה שלוש פעמים, בעברית, בלי ספרים ובלי אינטרנט.</p>
+    <p><strong>התוצאות זמניות:</strong> עד כה בדק את התשובות רק שופט ממוחשב אחד, שהוא גם אחד הנבחנים. אף רב עדיין לא עבר על המחוונים או בדק תשובות. הציונים אינם ציון במבחן הסמיכה ואין בהם היתר לסמוך על מודל בפסיקת הלכה.</p>
+  </div>
+
+  <h2>Get involved</h2>
+  <p>The authors invite review and collaboration (rubric review, grading answers, expanding the test): <a href="mailto:halachabench@gmail.com">halachabench@gmail.com</a>. Original repository: <a href="https://github.com/HalachaBench/halacha-bench-results">github.com/HalachaBench/halacha-bench-results</a>.</p>
+
+  <footer>
+    This explainer page lives on a public fork maintained by <a href="https://github.com/agamrafaeli-instinct">agamrafaeli-instinct</a> and summarizes the upstream README. It is not an official HalachaBench page. All results, methodology and caveats are the upstream authors'; read the <a href="https://github.com/HalachaBench/halacha-bench-results">full README</a> before quoting any number.
+  </footer>
+
+</div>
+</body>
+</html>
