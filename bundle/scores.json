@@ -7,6 +7,10 @@
      "mean": 79.737203,
      "answers": 180
     },
+    "claude-fable-5-2": {
+     "mean": 85.765638,
+     "answers": 180
+    },
     "claude-haiku-5-5": {
      "mean": 8.618629,
      "answers": 180
@@ -89,6 +93,10 @@
     },
     "llama-4-scout-17b-16e": {
      "mean": 4.162859,
+     "answers": 180
+    },
+    "muse-ember": {
+     "mean": 15.33869,
      "answers": 180
     },
     "muse-glimmer-30b": {
