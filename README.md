@@ -1,6 +1,9 @@
 # HalachaBench v1: early results (provisional)
 
-*1 November 2026, updated 9 November 2026* · Hebrew summary: [בעברית, בקצרה](#בעברית-בקצרה)
+*1 November 2026, updated 13 November 2026* · Hebrew summary: [בעברית, בקצרה](#בעברית-בקצרה)
+
+**13 November:** Gemini 4 Carbon added. It places second (82.3), 4.1 points above Gemini 4 Argon and not clearly
+apart from Claude Fable 5.2. During its grading the judge protocol was amended; see note ⁸.
 
 **9 November:** two models added: Claude Fable 5.2, which takes first place (85.8) and is clearly ahead of every
 other model, and Meta's Muse Ember, the smallest Muse model (15.3, 19th). See [Results](#results).
@@ -15,7 +18,7 @@ and Muse Spark 1.3. Muse Wonder Full places 8th (60.8); see [Results](#results).
 Grok 4.3, Claude Opus 4.8 and Claude Sonnet 4.6. See [Checks on the Grok results](#checks-on-the-grok-results).
 
 HalachaBench tests how well AI models answer real questions from the semicha (rabbinic ordination) exams of the Chief
-Rabbinate of Israel. These early results cover 29 models on the **test set: the 60 questions of five papers of the
+Rabbinate of Israel. These early results cover 30 models on the **test set: the 60 questions of five papers of the
 Cheshvan 5787 sitting** (Niddah, Chuppah v'Kiddushin, Mitzvot HaTeluyot BaAretz, Mikvaot, Tefillah u'Brachot), a
 sitting that began on 12 October 2026. Each model answered every question three times, in Hebrew, closed-book.
 
@@ -30,7 +33,7 @@ sitting that began on 12 October 2026. Each model answered every question three 
 > registered context, and the runtime could not separate Olmo's reasoning from its answer. Claude Opus 5.5 will grade
 > as a second judge. Read the caveats below before quoting a number.
 
-![HalachaBench early results: bar chart of the 29 models' scores with 95% intervals](results.png)
+![HalachaBench early results: bar chart of the 30 models' scores with 95% intervals](results.png)
 
 ## Results
 
@@ -40,36 +43,37 @@ attempts. Worst of 3: the lowest of the three attempts at each question, average
 | # | Model | Score | 95% interval | Worst of 3 | How it ran |
 |---|---|---|---|---|---|
 | 1 | Claude Fable 5.2 † | 85.8 | 82.7 – 88.5 | 79.8 | Claude Code CLI, effort high ⁷ |
-| 2 | Claude Fable 5.1 | 79.7 | 75.8 – 83.4 | 70.4 | Claude Code CLI, effort high |
-| 3 | Gemini 4 Argon † | 78.2 | 74.3 – 81.9 | 70.7 | Antigravity CLI, effort high ³ |
-| 4 | GPT-5.6 Sol † | 77.3 | 72.4 – 81.3 | 68.5 | Codex, effort high ⁵ |
-| 5 | GPT-6 Astra | 73.3 | 69.4 – 77.0 | 66.2 | Codex, effort high |
-| 6 | GPT-6.1 Sol | 72.8 | 69.1 – 76.2 | 63.9 | Codex, effort high |
-| 7 | Claude Opus 5.5 | 69.1 | 64.7 – 73.3 | 60.0 | Claude Code CLI, effort high |
-| 8 | Gemini 3.8 Flash | 64.4 | 59.7 – 68.9 | 54.3 | Antigravity CLI, effort high |
-| 9 | Muse Wonder Full † | 60.8 | 56.4 – 65.2 | 47.9 | Muse Code CLI, effort high ⁶ |
-| 10 | GPT-6 Sol † | 48.7 | 44.1 – 53.3 | 37.2 | Codex, effort high ⁵ |
-| 11 | Muse Wonder † | 48.2 | 43.4 – 53.1 | 35.5 | Muse Code CLI, effort high ⁶ |
-| 12 | Claude Opus 4.8 † | 48.0 | 43.3 – 52.7 | 36.3 | Claude Code CLI, effort high |
-| 13 | Muse Spark 1.3 † | 36.2 | 32.2 – 40.4 | 22.0 | Muse Code CLI, effort high ⁶ |
-| 14 | GPT-6.1 Terra | 34.6 | 30.8 – 38.5 | 25.6 | Codex, effort high |
-| 15 | GPT-6 Luna | 32.4 | 28.5 – 36.4 | 21.8 | Codex, effort high |
-| 16 | Grok 4.7 † | 29.9 | 26.3 – 33.6 | 16.4 | xAI API, effort high ⁴ |
-| 17 | Claude Sonnet 4.6 † | 29.6 | 25.4 – 33.9 | 19.9 | Claude Code CLI, effort high |
-| 18 | Claude Sonnet 5.5 | 28.7 | 24.2 – 33.3 | 18.3 | Claude Code CLI, effort high |
-| 19 | Muse Ember † | 15.3 | 12.0 – 18.8 | 6.2 | Muse Code CLI, effort high ⁶ |
-| 20 | Grok 4.3 † | 10.8 | 8.1 – 13.6 | 4.8 | xAI API, effort high ⁴ |
-| 21 | Muse Glimmer 30B | 10.5 | 7.6 – 13.7 | 4.4 | local, llama.cpp, Q4_K_M |
-| 22 | Claude Haiku 5.5 | 8.6 | 6.0 – 11.5 | 3.6 | Claude Code CLI, effort high |
-| 23 | Ling 3.0 Flash | 6.1 | 4.4 – 8.0 | 0.9 | local, llama.cpp, Q4_K_M |
-| 24 | Qwen3.8 27B | 6.0 | 4.1 – 8.2 | 1.6 | local, llama.cpp, UD-Q4_K_M ¹ |
-| 25 | gpt-oss-120b | 4.4 | 2.6 – 6.4 | 2.1 | local, llama.cpp, MXFP4 |
-| 26 | DictaLM 3.0 24B Thinking | 4.3 | 2.8 – 6.0 | 0.8 | local, llama.cpp, Q4_K_M ¹ |
-| 27 | Gemma 4 31B | 4.3 | 2.5 – 6.4 | 2.0 | local, llama.cpp, Q4_K_M |
-| 28 | Llama 4 Scout 17B-16E | 4.2 | 2.6 – 6.0 | 1.4 | local, llama.cpp, Q4_K_M ² |
-| 29 | gpt-oss-20b | 1.2 | 0.5 – 2.1 | 0.0 | local, llama.cpp, MXFP4 |
+| 2 | Gemini 4 Carbon † | 82.3 | 78.4 – 86.0 | 75.9 | Antigravity CLI, effort high ⁸ |
+| 3 | Claude Fable 5.1 | 79.7 | 75.8 – 83.4 | 70.4 | Claude Code CLI, effort high |
+| 4 | Gemini 4 Argon † | 78.2 | 74.3 – 81.9 | 70.7 | Antigravity CLI, effort high ³ |
+| 5 | GPT-5.6 Sol † | 77.3 | 72.4 – 81.3 | 68.5 | Codex, effort high ⁵ |
+| 6 | GPT-6 Astra | 73.3 | 69.4 – 77.0 | 66.2 | Codex, effort high |
+| 7 | GPT-6.1 Sol | 72.8 | 69.1 – 76.2 | 63.9 | Codex, effort high |
+| 8 | Claude Opus 5.5 | 69.1 | 64.7 – 73.3 | 60.0 | Claude Code CLI, effort high |
+| 9 | Gemini 3.8 Flash | 64.4 | 59.7 – 68.9 | 54.3 | Antigravity CLI, effort high |
+| 10 | Muse Wonder Full † | 60.8 | 56.4 – 65.2 | 47.9 | Muse Code CLI, effort high ⁶ |
+| 11 | GPT-6 Sol † | 48.7 | 44.1 – 53.3 | 37.2 | Codex, effort high ⁵ |
+| 12 | Muse Wonder † | 48.2 | 43.4 – 53.1 | 35.5 | Muse Code CLI, effort high ⁶ |
+| 13 | Claude Opus 4.8 † | 48.0 | 43.3 – 52.7 | 36.3 | Claude Code CLI, effort high |
+| 14 | Muse Spark 1.3 † | 36.2 | 32.2 – 40.4 | 22.0 | Muse Code CLI, effort high ⁶ |
+| 15 | GPT-6.1 Terra | 34.6 | 30.8 – 38.5 | 25.6 | Codex, effort high |
+| 16 | GPT-6 Luna | 32.4 | 28.5 – 36.4 | 21.8 | Codex, effort high |
+| 17 | Grok 4.7 † | 29.9 | 26.3 – 33.6 | 16.4 | xAI API, effort high ⁴ |
+| 18 | Claude Sonnet 4.6 † | 29.6 | 25.4 – 33.9 | 19.9 | Claude Code CLI, effort high |
+| 19 | Claude Sonnet 5.5 | 28.7 | 24.2 – 33.3 | 18.3 | Claude Code CLI, effort high |
+| 20 | Muse Ember † | 15.3 | 12.0 – 18.8 | 6.2 | Muse Code CLI, effort high ⁶ |
+| 21 | Grok 4.3 † | 10.8 | 8.1 – 13.6 | 4.8 | xAI API, effort high ⁴ |
+| 22 | Muse Glimmer 30B | 10.5 | 7.6 – 13.7 | 4.4 | local, llama.cpp, Q4_K_M |
+| 23 | Claude Haiku 5.5 | 8.6 | 6.0 – 11.5 | 3.6 | Claude Code CLI, effort high |
+| 24 | Ling 3.0 Flash | 6.1 | 4.4 – 8.0 | 0.9 | local, llama.cpp, Q4_K_M |
+| 25 | Qwen3.8 27B | 6.0 | 4.1 – 8.2 | 1.6 | local, llama.cpp, UD-Q4_K_M ¹ |
+| 26 | gpt-oss-120b | 4.4 | 2.6 – 6.4 | 2.1 | local, llama.cpp, MXFP4 |
+| 27 | DictaLM 3.0 24B Thinking | 4.3 | 2.8 – 6.0 | 0.8 | local, llama.cpp, Q4_K_M ¹ |
+| 28 | Gemma 4 31B | 4.3 | 2.5 – 6.4 | 2.0 | local, llama.cpp, Q4_K_M |
+| 29 | Llama 4 Scout 17B-16E | 4.2 | 2.6 – 6.0 | 1.4 | local, llama.cpp, Q4_K_M ² |
+| 30 | gpt-oss-20b | 1.2 | 0.5 – 2.1 | 0.0 | local, llama.cpp, MXFP4 |
 
-† Added on 2, 3, 6 or 9 November 2026, after the first results were published, each by a recorded amendment to the
+† Added on 2, 3, 6, 9 or 12 November 2026, after the first results were published, each by a recorded amendment to the
 pre-registration made before its answers were collected. Claude Opus 4.8, Claude Sonnet 4.6, GPT-5.6 Sol and GPT-6 Sol
 are earlier generations, added to see how the scores change across model versions.
 
@@ -77,9 +81,11 @@ are earlier generations, added to see how the scores change across model version
 together; 10,000 replicates). They cover only the choice of questions, not judge or rubric error, which is likely
 larger here. Overlapping intervals do not by themselves mean two models are tied, so models were also compared question
 by question:
-- **Claude Fable 5.2 is clearly ahead of every other model:** of Claude Fable 5.1 by 6.0 points (95% interval 3.0 to
-  9.1), of Gemini 4 Argon by 7.5 (3.7 to 11.2) and of GPT-5.6 Sol by 8.5 (4.2 to 13.4). Its worst of three attempts
-  averages 79.8, higher than any other model's average score.
+- **Claude Fable 5.2 and Gemini 4 Carbon lead:** they are not clearly apart (Fable 5.2 ahead by 3.5 points, 95%
+  interval −0.3 to 7.1). Fable 5.2 is clearly ahead of every other model: of Claude Fable 5.1 by 6.0 points (3.0 to
+  9.1), of Gemini 4 Argon by 7.5 (3.7 to 11.2) and of GPT-5.6 Sol by 8.5 (4.2 to 13.4). Gemini 4 Carbon is clearly ahead
+  of Gemini 4 Argon (4.1, 1.8 to 6.4), GPT-6 Astra (9.0, 4.1 to 13.7) and every model below them, but not clearly
+  apart from Claude Fable 5.1 (2.6 behind Carbon, −0.9 to 6.1) or GPT-5.6 Sol (5.0, −0.4 to 10.8).
 - **Not clearly apart:** Claude Fable 5.1, Gemini 4 Argon and GPT-5.6 Sol (Fable ahead of Argon by 1.5 points, 95%
   interval −1.8 to 4.9, and of GPT-5.6 Sol by 2.5, −2.5 to 7.9); GPT-5.6 Sol with GPT-6 Astra (3.9, −0.9 to 8.5) and
   GPT-6.1 Sol (4.5, −0.5 to 8.9); Gemini 4 Argon and GPT-6 Astra (4.9, −0.3 to 10.0); GPT-6 Astra, GPT-6.1 Sol and
@@ -87,7 +93,7 @@ by question:
   4.8 (GPT-6 Sol ahead of Opus 4.8 by 0.6, −4.6 to 5.4, and Muse Wonder within 0.4 of both); Muse Spark 1.3 with
   GPT-6.1 Terra (1.6, −3.3 to 6.8) and GPT-6 Luna (3.9, −0.6 to 8.3); GPT-6 Luna, Grok
   4.7, Claude Sonnet 4.6 and Claude Sonnet 5.5; GPT-6.1 Terra and GPT-6 Luna; Grok 4.3, Muse Glimmer 30B and Claude
-  Haiku 5.5, and Claude Haiku 5.5 with Qwen3.8 27B; most pairs among ranks 21 to 26.
+  Haiku 5.5, and Claude Haiku 5.5 with Qwen3.8 27B; most pairs among ranks 22 to 27.
 - **Clearly apart:** Claude Fable 5.1 is ahead of every model below it except Gemini 4 Argon and GPT-5.6 Sol (by 6.4 points
   over GPT-6 Astra, 1.6 to 11.1); GPT-5.6 Sol is ahead of Claude Opus 5.5 (8.2, 2.0 to 14.1) and every model below it; Gemini 4 Argon is ahead of GPT-6.1 Sol (5.5, 0.8 to 10.2) and every model below it; GPT-6.1 Terra is
   ahead of Grok 4.7 (4.7, 0.5 to 9.1), Claude Sonnet 4.6 (5.0, 0.1 to 10.0) and Claude Sonnet 5.5 (5.9, 0.8 to 10.9);
@@ -147,8 +153,19 @@ Claude Code 2.1.290 instead of 2.1.283: Anthropic's API refuses this model on th
 model since 2 November, it ran on the project's own Claude account, whose email address, which Claude Code shows the
 model, contains the project's name.
 
+⁸ Gemini 4 Carbon ran like Gemini 4 Argon (Antigravity CLI 1.4.10, effort high, every run monitored live; none used a
+tool). It thinks far longer than any other model: a median of about 69,000 output tokens and 13 minutes per answer,
+against about 14,000 for Argon. Two attempts at one question timed out after 30 minutes with no reply, twice each, and
+were run once more under the registered retry rule; both then answered, so all 180 answers are scored. During its
+grading, OpenAI's service began sending a new kind of status message with every GPT-6 Astra call, one that only repeats
+the requested reasoning effort. The harness stops any call that receives a message it does not recognise, so grading
+halted. A recorded amendment lets the harness accept that one message when it exactly repeats the requested effort (any
+other message still stops the call); this changes the judge protocol's hash, and the new hash is registered as
+equivalent to the old one. The grading begun under the old hash was set aside, and all of Carbon's answers were graded
+again from the start. The other 29 models' grades are unchanged.
+
 The local models ran at 4-bit quantization on the maintainer's own hardware. gpt-oss runs in MXFP4, the precision its
-weights were released in; the other local models may lose some points against full-precision versions. All 29 models
+weights were released in; the other local models may lose some points against full-precision versions. All 30 models
 had every one of their 180 test answers scored.
 
 ## Checks on the Grok results
@@ -248,11 +265,11 @@ or disqualified answer scores 0.
   a judge may prefer answers like its own. The second judge (Claude Opus 5.5) and the rabbis' grading will show how much
   this matters.
 - **The rubric writer is also a contestant.** Claude Fable 5.1 drafted every rubric, made every revision, decided which
-  single-reviewer suggestions to accept, and scored second; its successor Claude Fable 5.2 scored highest; Claude Opus 5.5, another contestant, checked the
+  single-reviewer suggestions to accept, and placed third; its successor Claude Fable 5.2 scored highest; Claude Opus 5.5, another contestant, checked the
   rubrics' sources. A rubric written by a model may favour that model's way of answering. The other two rubric
-  reviewers, GPT-6 Astra and Gemini 4 Argon, are contestants too, and placed fourth and second.
+  reviewers, GPT-6 Astra and Gemini 4 Argon, are contestants too, and placed sixth and fourth.
 - **Some models were added later.** Gemini 4 Argon, both Grok models, Claude Opus 4.8, Claude Sonnet 4.6, GPT-5.6 Sol,
-  GPT-6 Sol, the four Muse Code models and Claude Fable 5.2 were added
+  GPT-6 Sol, the four Muse Code models, Claude Fable 5.2 and Gemini 4 Carbon were added
   after the first results were published. Each was recorded as an amendment before its answers were collected, and was
   run on the same questions and graded with the same sealed rubrics and judge.
 - **Not contamination-free.** Rabbinate questions often recur from earlier sittings, whose papers (and some unofficial
@@ -297,15 +314,15 @@ developer; model names are their owners' trademarks.
 ## בעברית, בקצרה
 
 מבחן HalachaBench בודק עד כמה מודלים של בינה מלאכותית (AI) יודעים לענות על שאלות אמיתיות ממבחני ההסמכה של הרבנות
-הראשית לישראל. אלה תוצאות ראשונות של 29 מודלים על 60 השאלות של חמישה שאלונים ממועד חשוון תשפ"ז. כל מודל ענה על כל
+הראשית לישראל. אלה תוצאות ראשונות של 30 מודלים על 60 השאלות של חמישה שאלונים ממועד חשוון תשפ"ז. כל מודל ענה על כל
 שאלה שלוש פעמים, בעברית, בלי ספרים ובלי אינטרנט.
 
 **התוצאות זמניות, והן אינן ציוני מבחן.** עד כה בדק את התשובות רק שופט ממוחשב אחד, GPT-6 Astra, שהוא גם אחד המודלים
-הנבחנים. המחוונים נכתבו בידי Claude Fable 5.1, שקיבל את הציון הגבוה ביותר, ונבדקו בידי מודלי AI; אף רב עדיין לא עבר
+הנבחנים. המחוונים נכתבו בידי Claude Fable 5.1, שהגיע למקום השלישי, ונבדקו בידי מודלי AI; אף רב עדיין לא עבר
 עליהם, ואף רב עדיין לא בדק תשובה. שאלות רבות במבחני הרבנות חוזרות ממועדים קודמים, ועוד לא נבדק אילו מהשאלות כאן חוזרות, ולכן ייתכן שהמודלים ראו
 שאלות דומות.
 ב־2 בנובמבר נוספו חמישה מודלים: Gemini 4 Argon,‏ Grok 4.7,‏ Grok 4.3,‏ Claude Opus 4.8 ו־Claude Sonnet 4.6, וב־3 בנובמבר נוספו GPT-5.6 Sol
-ו־GPT-6 Sol. ב־6 בנובמבר נוספו שלושה מודלים של Meta, דרך Muse Code:‏ Muse Wonder Full,‏ Muse Wonder ו־Muse Spark 1.3. ב־9 בנובמבר נוספו Claude Fable 5.2, שהגיע למקום הראשון (85.8), ו־Muse Ember של Meta‏ (15.3). עוד חמש הרצות רשומות עדיין חסרות, ויתווספו. הציונים אינם ציון במבחן הסמיכה, אינם קובעים
+ו־GPT-6 Sol. ב־6 בנובמבר נוספו שלושה מודלים של Meta, דרך Muse Code:‏ Muse Wonder Full,‏ Muse Wonder ו־Muse Spark 1.3. ב־9 בנובמבר נוספו Claude Fable 5.2, שהגיע למקום הראשון (85.8), ו־Muse Ember של Meta‏ (15.3). ב־13 בנובמבר נוסף Gemini 4 Carbon של Google, שהגיע למקום השני (82.3). עוד חמש הרצות רשומות עדיין חסרות, ויתווספו. הציונים אינם ציון במבחן הסמיכה, אינם קובעים
 אם מודל "עובר את מבחני הסמיכה", ואין בהם היתר לסמוך על מודל בפסיקת הלכה.
 
 כל מי שמעוניין לעבור על המחוונים או לבדוק תשובות, או לשתף פעולה בהרחבת המבחן, מוזמן לכתוב אל

@@ -43,6 +43,10 @@
      "mean": 78.224588,
      "answers": 180
     },
+    "gemini-4-carbon": {
+     "mean": 82.290515,
+     "answers": 180
+    },
     "gemma-4-31b": {
      "mean": 4.270288,
      "answers": 180
